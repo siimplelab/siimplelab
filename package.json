@@ -1,0 +1,19 @@
+{
+  "name": "siimplelab",
+  "version": "1.0.0",
+  "description": "- 👋 Hi, I’m @siimplelab - 👀 I’m interested in FE - 🌱 I’m currently learning FE - 💞️ I’m looking to collaborate on FE - 📫 How to reach me => Email me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://siimplelab@github.com/siimplelab/siimplelab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siimplelab/siimplelab/issues"
+  },
+  "homepage": "https://github.com/siimplelab/siimplelab#readme"
+}
