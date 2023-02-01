@@ -36,4 +36,28 @@ nav.navbar.bootsnav.navbar-fixed {
   nav.navbar.bootsnav.navbar-fixed .logo-display {
     display: none !important;
   }
+
+  .logo img {
+    max-height: 32px;
+  }
+}
+
+.section-title h1 {
+  font-size: 36px;
+}
+
+.section-title h1 span {
+  font-size: 0.75em;
+  font-weight: 400;
+}
+
+@media (max-width: 1023px) {
+
+  .section-title h1 {
+    font-size: 28px;
+  }
+}
+
+.feature-box {
+  word-break: keep-all;
 }
