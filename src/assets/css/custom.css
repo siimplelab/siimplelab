@@ -61,3 +61,7 @@ nav.navbar.bootsnav.navbar-fixed {
 .feature-box {
   word-break: keep-all;
 }
+
+div {
+  word-break: keep-all;
+}
