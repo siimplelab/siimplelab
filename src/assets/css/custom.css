@@ -70,4 +70,9 @@ nav.navbar.bootsnav.navbar-fixed {
 
 div {
   word-break: keep-all;
-};
+}
+
+.contact-additional-text {
+  margin-top: 0.5em;
+  display: block;
+}
