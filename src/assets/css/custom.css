@@ -58,10 +58,16 @@ nav.navbar.bootsnav.navbar-fixed {
   }
 }
 
+@media (max-width: 991px) {
+  .section-title h1 {
+    font-size: 24px;
+  }
+}
+
 .feature-box {
   word-break: keep-all;
 }
 
 div {
   word-break: keep-all;
-}
+};
