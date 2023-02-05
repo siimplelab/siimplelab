@@ -92,5 +92,27 @@ div {
 
 .copy-right {
   font-size: 0.875em;
-  color: #aaa;
+  color: #666;
+}
+
+
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
+
+.pricing-box .value h3 span {
+  right: -1.5ch;
+}
+
+.social-icons-style-02 span {
+  color: #fff;
+}
+
+.team-img {
+  cursor: pointer;
+} 
+
+.team-info h3 {
+  font-size: 1.25em;
 }
