@@ -76,3 +76,21 @@ div {
   margin-top: 0.5em;
   display: block;
 }
+
+.pricing-box ul li strong {
+  padding-right: .3333em;
+  color: inherit;
+  font-size: 1.5rem;
+  padding-top: 0.75em;
+  display: block;
+}
+
+.pricing-box .price-annotation {
+  display: block;
+  opacity: .5;
+}
+
+.copy-right {
+  font-size: 0.875em;
+  color: #aaa;
+}
