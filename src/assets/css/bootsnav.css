@@ -93,7 +93,7 @@ nav.navbar.bootsnav ul.nav > li > a{
     background-color: transparent;
     outline: none;
     margin-bottom: -2px;
-	  font-family: 'Raleway', sans-serif;
+	  font-family: 'Pretendard', sans-serif;
     font-size: 12px;
 	  font-weight: 500;
     text-transform: uppercase;
@@ -855,7 +855,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a{
         padding: 10px 15px;
         color: #757575;
-    		font-family: 'Raleway', sans-serif;
+    		font-family: 'Pretendard', sans-serif;
     		font-size: 12px;
         border-bottom: 1px solid #f3f1f1;
 		/*margin: 0 15px 5px 15px;*/
@@ -931,7 +931,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         margin-bottom: 0;
         border-bottom: none;
         color: #757575;
-		font-family: 'Raleway', sans-serif;
+		font-family: 'Pretendard', sans-serif;
 		font-size: 12px;
     }
 
@@ -1271,7 +1271,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     nav.bootsnav.navbar-sidebar ul.nav > li > a{
         padding: 10px 15px;
         text-align:left;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Pretendard', sans-serif;
         letter-spacing: 2px;
         font-weight: 600;
     }
@@ -2625,7 +2625,7 @@ ul.side-bar-nav li {
 ul.side-bar-nav li a {
     text-decoration: none;
     color: #1d2124;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Pretendard', sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -2641,7 +2641,7 @@ ul.side-bar-nav-list li {
 
 ul.side-bar-nav-list li a {
     color: #757575;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Pretendard', sans-serif;
     font-size: 12px;
     text-transform: capitalize;
     letter-spacing: 0px;
