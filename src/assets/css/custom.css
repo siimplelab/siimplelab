@@ -225,3 +225,12 @@ section.client {
 .team-info .title {
   font-weight: bold;
 }
+
+.btn {
+  letter-spacing: 0;
+}
+.contact-form-style-01 .btn-color {
+  opacity: 1; 
+  border: 0;
+  background: var(--brand-color-secondary);
+}

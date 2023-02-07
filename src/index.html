@@ -779,6 +779,7 @@
             <video
               id="main-background-video"
               autoplay
+              muted="muted"
               loop
               src="./assets/videos/smpl-bg.mp4"
             ></video>
@@ -1111,7 +1112,7 @@
             >
               <div class="team style-2 xs-mb-30 sm-mb-30">
                 <div
-                  class="team-img valid"
+                  class="team-img "
                   data-name="smpl-portfolio-link__gongstar"
                 >
                   <img
@@ -1119,7 +1120,7 @@
                     alt=""
                   />
                   <div class="social-icons-style-02">
-                    <span>클릭하여 결과물 확인</span>
+                    <span>보안으로 인한 비공개</span>
                     <!-- <ul class="sm-icon mt-20 mb-0">
                       <li>
                         <a class="fb" href="#."
@@ -1177,13 +1178,13 @@
               data-wow-delay="0.2s"
             >
               <div class="team style-2 xs-mb-30 sm-mb-30">
-                <div class="team-img valid">
+                <div class="team-img ">
                   <img
                     src="assets/images__portfolio/pf-thumb-krmed.png"
                     alt=""
                   />
                   <div class="social-icons-style-02">
-                    <span>클릭하여 결과물 확인</span>
+                    <span>보안으로 인한 비공개</span>
                   </div>
                 </div>
                 <div class="team-info text-center">
@@ -2063,7 +2064,10 @@
 
     <script>
       (() => {
-        document.querySelector("#main-background-video").play();
+        setTimeout(() => {
+          document.querySelector("#main-background-video").play();
+
+        },0)
 
         // setTimeout(() => {
         // 	document.querySelector('[data-name="smpl-portfolio-link__gongstar"]').addEventListener('click', () => {
