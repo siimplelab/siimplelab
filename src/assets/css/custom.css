@@ -1,3 +1,7 @@
+:root {
+  --brand-color-secondary: #2b71d6;
+}
+
 html {
   font-family: 'Pretendard', sans-serif; 
 }
@@ -75,8 +79,22 @@ nav.navbar.bootsnav.navbar-fixed {
 }
 
 .feature-box i {
-  color: #000;
+  color: var(--brand-color-secondary);
+  padding: 0.4em;
+  background: var(--brand-color-secondary);
+  color: #fff;
+  border-radius: 50%;
+  border: 2px solid var(--brand-color-secondary);
 }
+
+.feature-box-default-bg:after {
+  background: var(--brand-color-secondary);
+}
+
+.feature-box-default-bg:hover i {
+  border: 2px solid white;
+}
+
 
 div {
   word-break: keep-all;
@@ -159,19 +177,51 @@ div {
 }
 
 section.client {
-  background: #3D3D3D;
+  background: var(--brand-color-secondary);
     display: grid;
   grid-template-columns: 1fr;
-  gap: 6em;
+  gap: 4em;
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
 }
+
 .client-list {
     display: flex;
     flex-flow: row nowrap;
-    gap: 7.75em;
+    gap: 4em;
     justify-content: center;
     align-items: center;
+    padding: 1rem
+}
+
+@media (max-width: 1024px) {
+  .client-list {
+    flex-flow: row wrap;
+  }
 }
 
 .client-list img {
-  opacity: .5;
+  opacity: 1;
+}
+
+.pricing-box.featured {
+  background-color: var(--brand-color-secondary);
+}
+
+.icon-text.feature-box-2  .icon {
+  background-color: var(--brand-color-secondary);
+}
+
+.team.style-2:hover .team-img.valid img {
+  opacity: 1;
+}
+
+.portfolio-tag {
+
+  display: block;
+  margin-bottom: .2222em;
+}
+
+.team-info .title {
+  font-weight: bold;
 }

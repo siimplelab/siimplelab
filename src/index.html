@@ -622,8 +622,8 @@
                     font-weight: 700;
                     color: rgba(255, 255, 255, 1);
                     font-family: 'Pretendard', sans-serif;
-                    background-color: rgba(0, 0, 0, 1);
-                    border-color: rgba(0, 0, 0, 1);
+                    background-color: #2b71d6;
+                    border-color: #2b71d6;
                     border-width: 0px;
                     border-radius: 3px 3px 3px 3px;
                     outline: none;
@@ -631,7 +631,7 @@
                     box-sizing: border-box;
                     -moz-box-sizing: border-box;
                     -webkit-box-sizing: border-box;
-                    letter-spacing: 2px;
+                    letter-spacing: 0;
                     cursor: pointer;
                     border-radius: 2000px;
                   "
@@ -776,7 +776,12 @@
       <div class="dark-bg pt-0 pb-0 about-section sm-pt-50 sm-pb-50" id="about">
         <div class="col-md-6 col-sm-6 bg-flex bg-flex-left">
           <div class="bg-flex-holder bg-flex-cover about-section-bg">
-            <video autoplay loop src="./assets/videos/smpl-bg.mp4"></video>
+            <video
+              id="main-background-video"
+              autoplay
+              loop
+              src="./assets/videos/smpl-bg.mp4"
+            ></video>
           </div>
         </div>
         <div class="container-fluid">
@@ -1105,8 +1110,101 @@
               data-wow-delay="0.1s"
             >
               <div class="team style-2 xs-mb-30 sm-mb-30">
+                <div
+                  class="team-img valid"
+                  data-name="smpl-portfolio-link__gongstar"
+                >
+                  <img
+                    src="assets/images__portfolio/pf-thumb-gongstar.png"
+                    alt=""
+                  />
+                  <div class="social-icons-style-02">
+                    <span>클릭하여 결과물 확인</span>
+                    <!-- <ul class="sm-icon mt-20 mb-0">
+                      <li>
+                        <a class="fb" href="#."
+                          ><i class="icofont icofont-facebook"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a class="tw" href="#."
+                          ><i class="icofont icofont-twitter"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a class="be" href="#."
+                          ><i class="icofont icofont-behance"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a class="in" href="#."
+                          ><i class="icofont icofont-linkedin"></i
+                        ></a>
+                      </li>
+                    </ul> -->
+                  </div>
+                </div>
+                <div class="team-info text-center">
+                  <h3>공스타</h3>
+                  <span class="portfolio-tag">회사 웹사이트 (반응형)</span>
+                  <span class="title default-color">UI 개발 / UI 디자인</span>
+                </div>
+              </div>
+            </div>
+            <!--== Member End ==-->
+            <div
+              class="col-md-4 col-sm-4 col-xs-12 wow fadeInDown"
+              data-wow-delay="0.3s"
+            >
+              <div class="team style-2 xs-mb-30">
                 <div class="team-img">
-                  <img src="assets/images__portfolio/pf-thumb-snu.png" alt="" />
+                  <img src="assets/images__portfolio/pf-thumb-skh.png" alt="" />
+                  <div class="social-icons-style-02">
+                    <span>보안으로 인한 비공개</span>
+                  </div>
+                </div>
+                <div class="team-info text-center">
+                  <h3>SK Hynix (입찰)</h3>
+                  <span class="portfolio-tag">회사 웹사이트 (반응형)</span>
+                  <span class="title default-color">UI 디자인</span>
+                </div>
+              </div>
+            </div>
+            <!--== Member End ==-->
+            <!--== Member End ==-->
+            <div
+              class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp"
+              data-wow-delay="0.2s"
+            >
+              <div class="team style-2 xs-mb-30 sm-mb-30">
+                <div class="team-img valid">
+                  <img
+                    src="assets/images__portfolio/pf-thumb-krmed.png"
+                    alt=""
+                  />
+                  <div class="social-icons-style-02">
+                    <span>클릭하여 결과물 확인</span>
+                  </div>
+                </div>
+                <div class="team-info text-center">
+                  <h3>고려동물병원</h3>
+                  <span class="portfolio-tag">병원 웹사이트 (반응형)</span>
+                  <span class="title default-color">UI 디자인</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-50">
+            <div
+              class="col-md-4 col-sm-4 col-xs-12 wow fadeInLeft"
+              data-wow-delay="0.1s"
+            >
+              <div class="team style-2 xs-mb-30 sm-mb-30">
+                <div class="team-img">
+                  <img
+                    src="assets/images__portfolio/pf-thumb-exsp-promo.png"
+                    alt=""
+                  />
                   <div class="social-icons-style-02">
                     <span>보안으로 인한 비공개</span>
                     <!-- <ul class="sm-icon mt-20 mb-0">
@@ -1134,7 +1232,8 @@
                   </div>
                 </div>
                 <div class="team-info text-center">
-                  <h3>서울대 QoLT 연구소 입찰</h3>
+                  <h3>Exosphere 체험안내</h3>
+                  <span class="portfolio-tag">홍보 웹사이트 (반응형)</span>
                   <span class="title default-color">UI 개발 / UI 디자인</span>
                 </div>
               </div>
@@ -1146,14 +1245,16 @@
             >
               <div class="team style-2 xs-mb-30 sm-mb-30">
                 <div class="team-img">
-                  <img src="assets/images__portfolio/pf-thumb-skh.png" alt="" />
+                  <img src="assets/images__portfolio/pf-thumb-snu.png" alt="" />
                   <div class="social-icons-style-02">
                     <span>보안으로 인한 비공개</span>
                   </div>
                 </div>
                 <div class="team-info text-center">
-                  <h3>SK Hynix 웹사이트 입찰</h3>
-                  <span class="title default-color">UI 개발 / UI 디자인</span>
+                  <h3>서울대 QoLT 연구소 (입찰)</h3>
+                  <span class="portfolio-tag">홍보 웹사이트 (반응형)</span>
+
+                  <span class="title default-color">UI 디자인</span>
                 </div>
               </div>
             </div>
@@ -1165,19 +1266,17 @@
               <div class="team style-2 xs-mb-30">
                 <div class="team-img">
                   <img
-                    src="assets/images__portfolio/pf-thumb-moms.png"
+                    src="assets/images__portfolio/pf-thumb-exsp.png"
                     alt=""
                   />
                   <div class="social-icons-style-02">
                     <span>보안으로 인한 비공개</span>
-                    ㄴ
                   </div>
                 </div>
                 <div class="team-info text-center">
-                  <h3>Moms Hub 산후조리원</h3>
-                  <span class="title default-color"
-                    >웹 개발 (그누보드 + php)</span
-                  >
+                  <h3>Exosphere</h3>
+                  <span class="portfolio-tag">회사 웹사이트 (반응형)</span>
+                  <span class="title default-color">UI 개발 / UI 디자인</span>
                 </div>
               </div>
             </div>
@@ -1190,7 +1289,10 @@
             >
               <div class="team style-2 xs-mb-30 sm-mb-30">
                 <div class="team-img">
-                  <img src="assets/images__portfolio/pf-thumb-snu.png" alt="" />
+                  <img
+                    src="assets/images__portfolio/pf-thumb-nrhr.png"
+                    alt=""
+                  />
                   <div class="social-icons-style-02">
                     <span>보안으로 인한 비공개</span>
                     <!-- <ul class="sm-icon mt-20 mb-0">
@@ -1218,7 +1320,8 @@
                   </div>
                 </div>
                 <div class="team-info text-center">
-                  <h3>서울대 QoLT 연구소 입찰</h3>
+                  <h3>느린하루</h3>
+                  <span class="portfolio-tag">식당 웹사이트 (반응형)</span>
                   <span class="title default-color">UI 개발 / UI 디자인</span>
                 </div>
               </div>
@@ -1230,13 +1333,17 @@
             >
               <div class="team style-2 xs-mb-30 sm-mb-30">
                 <div class="team-img">
-                  <img src="assets/images__portfolio/pf-thumb-skh.png" alt="" />
+                  <img
+                    src="assets/images__portfolio/pf-thumb-moms.png"
+                    alt=""
+                  />
                   <div class="social-icons-style-02">
                     <span>보안으로 인한 비공개</span>
                   </div>
                 </div>
                 <div class="team-info text-center">
-                  <h3>SK Hynix 웹사이트 입찰</h3>
+                  <h3>엄마랑아가랑</h3>
+                  <span class="portfolio-tag">의료기관 웹사이트 (반응형)</span>
                   <span class="title default-color">UI 개발 / UI 디자인</span>
                 </div>
               </div>
@@ -1249,82 +1356,43 @@
               <div class="team style-2 xs-mb-30">
                 <div class="team-img">
                   <img
-                    src="assets/images__portfolio/pf-thumb-moms.png"
+                    src="assets/images__portfolio/pf-thumb-urkr.png"
                     alt=""
                   />
                   <div class="social-icons-style-02">
                     <span>보안으로 인한 비공개</span>
-                    ㄴ
                   </div>
                 </div>
                 <div class="team-info text-center">
-                  <h3>Moms Hub 산후조리원</h3>
-                  <span class="title default-color"
-                    >웹 개발 (그누보드 + php)</span
-                  >
+                  <h3>우리끼리</h3>
+                  <span class="portfolio-tag">키즈카페 웹사이트 (반응형)</span>
+                  <span class="title default-color">UI 개발 / UI 디자인</span>
                 </div>
               </div>
             </div>
             <!--== Member End ==-->
           </div>
           <div class="row mt-50">
+            <!--== Member End ==-->
             <div
-              class="col-md-4 col-sm-4 col-xs-12 wow fadeInLeft"
-              data-wow-delay="0.1s"
+              class="col-md-4 col-sm-4 col-xs-12 wow fadeInDown"
+              data-wow-delay="0.3s"
             >
-              <div class="team style-2 xs-mb-30 sm-mb-30">
+              <div class="team style-2 xs-mb-30">
                 <div class="team-img">
-                  <img src="assets/images__portfolio/pf-thumb-snu.png" alt="" />
+                  <img src="assets/images__portfolio/pf-thumb-kt.png" alt="" />
                   <div class="social-icons-style-02">
                     <span>보안으로 인한 비공개</span>
-                    <!-- <ul class="sm-icon mt-20 mb-0">
-                      <li>
-                        <a class="fb" href="#."
-                          ><i class="icofont icofont-facebook"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a class="tw" href="#."
-                          ><i class="icofont icofont-twitter"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a class="be" href="#."
-                          ><i class="icofont icofont-behance"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a class="in" href="#."
-                          ><i class="icofont icofont-linkedin"></i
-                        ></a>
-                      </li>
-                    </ul> -->
                   </div>
                 </div>
                 <div class="team-info text-center">
-                  <h3>서울대 QoLT 연구소 입찰</h3>
-                  <span class="title default-color">UI 개발 / UI 디자인</span>
+                  <h3>KT 올레티비 청력게임</h3>
+                  <span class="portfolio-tag">게임 웹앱</span>
+                  <span class="title default-color">UI 개발</span>
                 </div>
               </div>
             </div>
             <!--== Member End ==-->
-            <div
-              class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp"
-              data-wow-delay="0.2s"
-            >
-              <div class="team style-2 xs-mb-30 sm-mb-30">
-                <div class="team-img">
-                  <img src="assets/images__portfolio/pf-thumb-skh.png" alt="" />
-                  <div class="social-icons-style-02">
-                    <span>보안으로 인한 비공개</span>
-                  </div>
-                </div>
-                <div class="team-info text-center">
-                  <h3>SK Hynix 웹사이트 입찰</h3>
-                  <span class="title default-color">UI 개발 / UI 디자인</span>
-                </div>
-              </div>
-            </div>
             <!--== Member End ==-->
             <div
               class="col-md-4 col-sm-4 col-xs-12 wow fadeInDown"
@@ -1333,19 +1401,40 @@
               <div class="team style-2 xs-mb-30">
                 <div class="team-img">
                   <img
-                    src="assets/images__portfolio/pf-thumb-moms.png"
+                    src="assets/images__portfolio/pf-thumb-fishing.png"
                     alt=""
                   />
                   <div class="social-icons-style-02">
                     <span>보안으로 인한 비공개</span>
-                    ㄴ
                   </div>
                 </div>
                 <div class="team-info text-center">
-                  <h3>Moms Hub 산후조리원</h3>
-                  <span class="title default-color"
-                    >웹 개발 (그누보드 + php)</span
-                  >
+                  <h3>낚시터</h3>
+                  <span class="portfolio-tag">지도 웹앱</span>
+                  <span class="title default-color">UI 개발</span>
+                </div>
+              </div>
+            </div>
+            <!--== Member End ==-->
+            <!--== Member End ==-->
+            <div
+              class="col-md-4 col-sm-4 col-xs-12 wow fadeInDown"
+              data-wow-delay="0.3s"
+            >
+              <div class="team style-2 xs-mb-30">
+                <div class="team-img">
+                  <img
+                    src="assets/images__portfolio/pf-thumb-ebin.png"
+                    alt=""
+                  />
+                  <div class="social-icons-style-02">
+                    <span>보안으로 인한 비공개</span>
+                  </div>
+                </div>
+                <div class="team-info text-center">
+                  <h3>EBIN Korea</h3>
+                  <span class="portfolio-tag">회사 웹사이트 (반응형)</span>
+                  <span class="title default-color">UI 개발</span>
                 </div>
               </div>
             </div>
@@ -1355,44 +1444,42 @@
       </div>
       <!--== Team End ==-->
 
-      <div class="pt-0 pb-0 sm-pt-50 sm-pb-50 about-section">
+      <div class="pt-0 pb-0">
         <div class="col-12">
           <section class="client">
             <div class="client-list">
-              <div class="client-item">
-                <img src="./assets/images__clients/kt.svg" alt="kt">
+              <div class="client-item wow fadeInDown" data-wow-delay="0.3s">
+                <img src="./assets/images__clients/kt.svg" alt="kt" />
               </div>
-              <div class="client-item">
-                <img src="./assets/images__clients/krmed.svg" alt="kt">
+              <div class="client-item wow fadeInDown" data-wow-delay="0.3s">
+                <img src="./assets/images__clients/krmed.svg" alt="kt" />
               </div>
-              <div class="client-item">
-                <img src="./assets/images__clients/etri.svg" alt="kt">
+              <div class="client-item wow fadeInDown" data-wow-delay="0.3s">
+                <img src="./assets/images__clients/etri.svg" alt="kt" />
               </div>
-              <div class="client-item">
-                <img src="./assets/images__clients/gsnd.svg" alt="kt">
+              <div class="client-item wow fadeInDown" data-wow-delay="0.3s">
+                <img src="./assets/images__clients/gsnd.svg" alt="kt" />
               </div>
-              <div class="client-item">
-                <img src="./assets/images__clients/RTst.svg" alt="kt">
+              <div class="client-item wow fadeInDown" data-wow-delay="0.3s">
+                <img src="./assets/images__clients/RTst.svg" alt="kt" />
               </div>
-
             </div>
             <div class="client-list">
-              <div class="client-item">
-                <img src="./assets/images__clients/SKH-W.svg" alt="kt">
+              <div class="client-item wow fadeInDown" data-wow-delay="0.6s">
+                <img src="./assets/images__clients/SKH-W.svg" alt="kt" />
               </div>
-              <div class="client-item">
-                <img src="./assets/images__clients/ebin.svg" alt="kt">
+              <div class="client-item wow fadeInDown" data-wow-delay="0.6s">
+                <img src="./assets/images__clients/ebin.svg" alt="kt" />
               </div>
-              <div class="client-item">
-                <img src="./assets/images__clients/snu.svg" alt="kt">
+              <div class="client-item wow fadeInDown" data-wow-delay="0.6s">
+                <img src="./assets/images__clients/snu.svg" alt="kt" />
               </div>
-              <div class="client-item">
-                <img src="./assets/images__clients/nnb.svg" alt="kt">
+              <div class="client-item wow fadeInDown" data-wow-delay="0.6s">
+                <img src="./assets/images__clients/nnb.svg" alt="kt" />
               </div>
-              <div class="client-item">
-                <img src="./assets/images__clients/moms.svg" alt="kt">
+              <div class="client-item wow fadeInDown" data-wow-delay="0.6s">
+                <img src="./assets/images__clients/moms.svg" alt="kt" />
               </div>
-              
             </div>
           </section>
         </div>
@@ -1973,5 +2060,17 @@
     <script src="revolution/js/revolution.extension.slideanims.min.js"></script>
     <script src="revolution/js/revolution.extension.video.min.js"></script>
     <!--== Javascript Plugins End ==-->
+
+    <script>
+      (() => {
+        document.querySelector("#main-background-video").play();
+
+        // setTimeout(() => {
+        // 	document.querySelector('[data-name="smpl-portfolio-link__gongstar"]').addEventListener('click', () => {
+        // 		window.open("https://www.w3schools.com");
+        // 	});
+        // }, 0);
+      })();
+    </script>
   </body>
 </html>
