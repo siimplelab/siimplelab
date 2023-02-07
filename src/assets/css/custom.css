@@ -146,8 +146,12 @@ div {
   font-size: 1.25em;
 }
 
-.about-section-bg {
-  background-image: url('../images__smpl/overlay-bg.jpg')
+.about-section-bg video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* background-image: url('../images__smpl/overlay-bg.jpg') */
+
 }
 
 .counter-wrap h3 {
