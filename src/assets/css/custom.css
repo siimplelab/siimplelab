@@ -41,9 +41,11 @@ nav.navbar.bootsnav.navbar-fixed {
     display: none !important;
   }
 
-  .logo img {
-    max-height: 32px;
-  }
+
+}
+
+.logo img {
+  max-height: 32px;
 }
 
 .section-title h1 {
@@ -150,4 +152,22 @@ div {
 
 .counter-wrap h3 {
   letter-spacing: normal;
+}
+
+section.client {
+  background: #3D3D3D;
+    display: grid;
+  grid-template-columns: 1fr;
+  gap: 6em;
+}
+.client-list {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 7.75em;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-list img {
+  opacity: .5;
 }
