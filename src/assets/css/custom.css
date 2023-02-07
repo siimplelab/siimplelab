@@ -104,7 +104,7 @@ div {
   color: white !important;
 }
 .parallax-bg .overlay-bg {
-  background-image: url('../images__smpl/geometry-bg.jpg');
+  background-image: url('../images/images__smpl/geometry-bg.jpg');
 }
 
 .parallax-bg .overlay-bg:before {
@@ -168,7 +168,7 @@ div {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* background-image: url('../images__smpl/overlay-bg.jpg') */
+  /* background-image: url('../images/images__smpl/overlay-bg.jpg') */
 
 }
 

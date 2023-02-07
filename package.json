@@ -4,7 +4,9 @@
   "description": "- 👋 Hi, I’m @siimplelab - 👀 I’m interested in FE - 🌱 I’m currently learning FE - 💞️ I’m looking to collaborate on FE - 📫 How to reach me => Email me",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/siimplelab/siimplelab/issues"
   },
-  "homepage": "https://github.com/siimplelab/siimplelab#readme"
+  "homepage": "https://github.com/siimplelab/siimplelab#readme",
+  "devDependencies": {
+    "vite": "^4.1.1"
+  }
 }
