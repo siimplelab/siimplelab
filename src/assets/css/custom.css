@@ -183,6 +183,8 @@ section.client {
   gap: 4em;
   padding-top: 9.6rem;
   padding-bottom: 9.6rem;
+
+
 }
 
 .client-list {
@@ -192,6 +194,17 @@ section.client {
     justify-content: center;
     align-items: center;
     padding: 1rem
+}
+
+@media (max-width: 785px) {
+  section.client {
+  
+    gap: 3em;
+  }
+  
+  .client-list {
+      gap: 3em;
+  }
 }
 
 @media (max-width: 1024px) {
