@@ -10,9 +10,26 @@ nav.navbar.bootsnav.navbar-fixed {
   z-index: 1001;
 }
 
-.navbar-header,
-.navbar-collapse {
-  display: none; 
+@media (min-width: 1024px) {
+  .navbar-header,
+  .navbar-collapse {
+    display: none; 
+  }
+}
+
+@media (max-width: 1023px) {
+
+  .navbar-menu-01 {
+    display: block !important; 
+    opacity:1 !important;
+    visibility: visible !important;
+  }
+}
+.navbar-fixed:not(.navbar-transparent)  .navbar-menu-02,
+.navbar-fixed:not(.navbar-transparent)  .navbar-menu-01 {
+  display: block !important; 
+  opacity:1 !important;
+  visibility: visible !important;
 }
 
 @media (max-width: 1023px) {
