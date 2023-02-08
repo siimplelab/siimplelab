@@ -3,21 +3,9 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   root: 'src',
-  plugins: [
-    {
-      name: 'inject',
-      transformIndexHtml() {
-        return [
-          {
-            tag: 'script',
-            attrs: { type: 'module', src: './external.js', defer: true },
-          },
-        ];
-      },
-    },
-  ],
+  publicDir: '../public',
   build: {
-    assetsInclude: ['**/*.js'],
     outDir: '../dist',
+    emptyOutDir: true
   },
 })
