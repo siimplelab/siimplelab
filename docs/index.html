@@ -67,7 +67,8 @@
       >
         <div class="container">
           <!--== Start Header Navigation ==-->
-          <div class="navbar-header">
+          <div class="navbar-header wow fadeInUp" data-wow-delay="0.6s"
+          >
             <button
               type="button"
               class="navbar-toggle"
@@ -94,7 +95,7 @@
           <!--== End Header Navigation ==-->
 
           <!--== Collect the nav links, forms, and other content for toggling ==-->
-          <div class="collapse navbar-collapse" id="navbar-menu">
+          <div class="collapse navbar-collapse  wow fadeInUp" data-wow-delay="0.9s" id="navbar-menu">
             <ul
               class="nav navbar-nav navbar-center"
               data-in="fadeIn"
@@ -1199,7 +1200,7 @@
               data-wow-delay="0.2s"
             >
               <div class="team style-2 xs-mb-30 sm-mb-30">
-                <div class="team-img">
+                <div class="team-img valid" data-name="smpl-portfolio-link__krmed" >
                   <img
                     src="/assets/pf-thumb-krmed-c93937e3.png"
                     alt=""
@@ -2083,10 +2084,12 @@
           document.querySelector('[data-name="smpl-portfolio-link__exsp"]').addEventListener('click', () => {
         		window.open("https://exsp.netlify.app/");
         	});
-        }, 0);p
+          document.querySelector('[data-name="smpl-portfolio-link__krmed"]').addEventListener('click', () => {
+        		window.open("https://smpl-krmed.animaapp.io/");
+        	});
+        }, 0);
       })();
     </script>
-
   <!-- <script type="module" src="./main.js"></script> -->
 
   </body>
