@@ -301,3 +301,7 @@ display: none;
 #return-to-top {
   z-index: 103;
 }
+
+input, textarea, select {
+  background-color: #f2f2f2;
+}
