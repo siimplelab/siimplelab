@@ -414,33 +414,33 @@ jQuery(function ($) {
 
 		/* ===== CONTACT FORM ===== */
 
-		$(function () {
+		// $(function () {
 
-			$('#contact-form').validator();
+		// 	$('#contact-form').validator();
 
-			$('#contact-form').on('submit', function (e) {
+		// 	$('#contact-form').on('submit', function (e) {
 
-				if (!e.isDefaultPrevented()) {
-					var url = "assets/php/contact.php";
-					$.ajax({
-						type: "POST",
-						url: url,
-						data: $(this).serialize(),
-						success: function (data) {
-							var messageAlert = data.class;
-							var messageText = data.message;
+		// 		if (!e.isDefaultPrevented()) {
+		// 			var url = "assets/php/contact.php";
+		// 			$.ajax({
+		// 				type: "POST",
+		// 				url: url,
+		// 				data: $(this).serialize(),
+		// 				success: function (data) {
+		// 					var messageAlert = data.class;
+		// 					var messageText = data.message;
 
-							var alertBox = '<div class="' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
-							if (messageAlert && messageText) {
-								$('#contact-form').find('.messages').html(alertBox);
-								$('#contact-form')[0].reset();
-							}
-						}
-					});
-					return false;
-				}
-			});
-		});
+		// 					var alertBox = '<div class="' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
+		// 					if (messageAlert && messageText) {
+		// 						$('#contact-form').find('.messages').html(alertBox);
+		// 						$('#contact-form')[0].reset();
+		// 					}
+		// 				}
+		// 			});
+		// 			return false;
+		// 		}
+		// 	});
+		// });
 
 
 		/* ===== REVOLUTION SLIDER MAIN ===== */
@@ -921,8 +921,12 @@ jQuery(function ($) {
 		$(window).on('scroll', function (e) {
 			if ($(this).scrollTop() >= 50) {
 				$('#return-to-top').fadeIn(200);
+				$('#social-floating').fadeIn(200);
+
 			} else {
 				$('#return-to-top').fadeOut(200);
+				$('#social-floating').fadeOut(200);
+
 			}
 		});
 
