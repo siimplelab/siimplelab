@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/siimplelab/siimplelab#readme",
   "devDependencies": {
+    "sass": "^1.58.0",
     "vite": "^4.1.1"
   }
 }

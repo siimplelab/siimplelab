@@ -785,10 +785,20 @@ section.lg-section {
 nav.navbar.bootsnav.navbar-transparent .logo {
   position: relative;
   z-index: 110;
-  display: table;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 80px;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
+
+
+}
+@media (max-width: 1023px) {
+    
+nav.navbar.bootsnav.navbar-transparent .logo {
+  justify-content: flex-start;
+}
 }
 
 nav.navbar.bootsnav.navbar-transparent.brand-center .logo,
