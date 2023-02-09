@@ -13,29 +13,32 @@ nav.navbar.bootsnav.navbar-fixed {
 @media (min-width: 1024px) {
   .navbar-header,
   .navbar-collapse {
-    display: none; 
+    /* display: none;  */
   }
 }
-
+/* 
 @media (max-width: 1023px) {
 
   .navbar-menu-01 {
-    display: block !important; 
-    opacity:1 !important;
-    visibility: visible !important;
+    visibility: visible;
   }
-}
-.navbar-fixed .navbar-menu-02,
-.navbar-fixed  .navbar-menu-01 {
-  visibility: hidden;
+} */
+.navbar-menu-01,
+.navbar-menu-02 {
+  animation: navFadeIn 3s ease;
 }
 
-.navbar-fixed:not(.navbar-transparent)  .navbar-menu-02,
-.navbar-fixed:not(.navbar-transparent)  .navbar-menu-01 {
-  display: block !important; 
-  opacity:1 !important;
-  visibility: visible !important;
+@keyframes navFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
+
+
+
 
 @media (max-width: 1023px) {
   nav.navbar.bootsnav .navbar-header {
