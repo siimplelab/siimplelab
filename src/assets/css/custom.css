@@ -25,6 +25,11 @@ nav.navbar.bootsnav.navbar-fixed {
     visibility: visible !important;
   }
 }
+.navbar-fixed .navbar-menu-02,
+.navbar-fixed  .navbar-menu-01 {
+  visibility: hidden;
+}
+
 .navbar-fixed:not(.navbar-transparent)  .navbar-menu-02,
 .navbar-fixed:not(.navbar-transparent)  .navbar-menu-01 {
   display: block !important; 
