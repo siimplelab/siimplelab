@@ -815,7 +815,7 @@ jQuery(function ($) {
 
 				var wow = new WOW({
 					offset: 100,
-					mobile: false
+					mobile: true
 				}
 				);
 				wow.init();
