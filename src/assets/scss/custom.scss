@@ -3,7 +3,7 @@
 }
 
 html {
-  font-family: 'Pretendard', sans-serif; 
+  font-family: "Pretendard", sans-serif;
 }
 
 /* 메인 텍스트 */
@@ -32,9 +32,9 @@ html {
   }
 }
 
- /* 검은 펜 */
+/* 검은 펜 */
 /* #slide-3238-layer-4 { */
-  /* z-index: 1 !important; */
+/* z-index: 1 !important; */
 /* } */
 
 /* 빨간 펜 */
@@ -55,7 +55,13 @@ nav.navbar.bootsnav.navbar-fixed {
 .navbar-menu-02 {
   animation: navFadeIn 3s ease;
 }
-
+.navbar-menu-1 {
+  z-index: 2001;
+}
+.navbar-menu-02 {
+  position: relative;
+  z-index: 2002;
+}
 @keyframes navFadeIn {
   0% {
     opacity: 0;
@@ -95,17 +101,13 @@ nav.navbar.bootsnav.navbar-fixed {
     height: 60px;
   }
 
-
-
   nav.navbar.bootsnav.navbar-fixed .logo-display {
     display: none !important;
   }
-
-
 }
 
-
-nav.navbar.bootsnav.navbar-transparent.brand-center .logo , .brand-center .logo {
+nav.navbar.bootsnav.navbar-transparent.brand-center .logo,
+.brand-center .logo {
   img {
     aspect-ratio: 138 / 42;
     width: auto;
@@ -115,7 +117,7 @@ nav.navbar.bootsnav.navbar-transparent.brand-center .logo , .brand-center .logo 
 
   @media (max-width: 1023px) {
     margin: 0;
-    }
+  }
 }
 
 .section-title h1 {
@@ -160,7 +162,6 @@ nav.navbar.bootsnav.navbar-transparent.brand-center .logo , .brand-center .logo 
   border: 2px solid white;
 }
 
-
 div {
   word-break: keep-all;
 }
@@ -169,7 +170,7 @@ div {
   color: white !important;
 }
 .parallax-bg .overlay-bg {
-  background-image: url('../images/images__smpl/geometry-bg.jpg');
+  background-image: url("../images/images__smpl/geometry-bg.jpg");
 }
 
 .parallax-bg .overlay-bg:before {
@@ -177,7 +178,7 @@ div {
   width: 100%;
   height: 100%;
   background: black;
-  opacity: .5;
+  opacity: 0.5;
   left: 0;
   top: 0;
   content: "";
@@ -190,7 +191,7 @@ div {
 }
 
 .pricing-box ul li strong {
-  padding-right: .3333em;
+  padding-right: 0.3333em;
   color: inherit;
   font-size: 1.5rem;
   padding-top: 0.75em;
@@ -199,7 +200,7 @@ div {
 
 .pricing-box .price-annotation {
   display: block;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .copy-right {
@@ -207,10 +208,9 @@ div {
   color: #666;
 }
 
-
 .footer-logo img {
-    width: 100px;
-    height: auto;
+  width: 100px;
+  height: auto;
 }
 
 .pricing-box .value h3 span {
@@ -223,7 +223,7 @@ div {
 
 .team-img {
   cursor: pointer;
-} 
+}
 
 .team-info h3 {
   font-size: 1.25em;
@@ -234,7 +234,6 @@ div {
   height: 100%;
   object-fit: cover;
   /* background-image: url('../images/images__smpl/overlay-bg.jpg') */
-
 }
 
 .counter-wrap h3 {
@@ -243,32 +242,29 @@ div {
 
 section.client {
   background: var(--brand-color-secondary);
-    display: grid;
+  display: grid;
   grid-template-columns: 1fr;
   gap: 4em;
   padding-top: 9.6rem;
   padding-bottom: 9.6rem;
-
-
 }
 
 .client-list {
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 4em;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 4em;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
 
 @media (max-width: 785px) {
   section.client {
-  
     gap: 3em;
   }
-  
+
   .client-list {
-      gap: 3em;
+    gap: 3em;
   }
 }
 
@@ -286,7 +282,7 @@ section.client {
   background-color: var(--brand-color-secondary);
 }
 
-.icon-text.feature-box-2  .icon {
+.icon-text.feature-box-2 .icon {
   background-color: var(--brand-color-secondary);
 }
 
@@ -295,9 +291,8 @@ section.client {
 }
 
 .portfolio-tag {
-
   display: block;
-  margin-bottom: .2222em;
+  margin-bottom: 0.2222em;
 }
 
 .team-info .title {
@@ -308,7 +303,7 @@ section.client {
   letter-spacing: 0;
 }
 .contact-form-style-01 .btn-color {
-  opacity: 1; 
+  opacity: 1;
   border: 0;
   background: var(--brand-color-secondary);
 }
@@ -321,7 +316,7 @@ section.client {
 .tp-caption#slide-3238-layer-12,
 .tp-caption#slide-3238-layer-13,
 .tp-caption#slide-3238-layer-14,
-.tp-caption#slide-3238-layer-15  {
+.tp-caption#slide-3238-layer-15 {
   transform-origin-y: 100% !important;
 }
 
@@ -333,7 +328,7 @@ section.client {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: .5em 1.5em;
+  padding: 0.5em 1.5em;
   font-size: 1.3333rem;
   color: #333;
   font-weight: bold;
@@ -343,26 +338,27 @@ section.client {
   /* left: 50%; */
   bottom: 20px;
   z-index: 101;
-display: none;
-  transition: opacity .25s ease;
+  display: none;
+  transition: opacity 0.25s ease;
   right: 6rem;
   /* transform: translate(-50%, 0); */
 }
 
 .social-floating i {
   font-size: 1.5555rem;
-  margin-right: .2222em;
+  margin-right: 0.2222em;
 }
 .footer-copyright {
   z-index: 102;
   position: relative;
-  
 }
 
 #return-to-top {
   z-index: 103;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
   background-color: #f2f2f2;
 }
