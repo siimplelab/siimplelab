@@ -806,15 +806,15 @@
           <div class="bg-flex-holder bg-flex-cover about-section-bg">
             <video
               id="main-background-video"
-              autoplay
-              muted="muted"
-              muted
-              loop
+              autoplay=""
+              muted=""
+              loop=""
               preload="auto"
-              autobuffer
-              playsinline
-              src="./assets/videos/smpl-bg.mp4" type="video/mp4"
+              autobuffer=""
+              playsinline=""
+              poster=""
             >
+            <!-- <source src="./assets/videos/smpl-bg.mp4" type="video/mp4"> -->
             <img src="./assets/images/landing-video-fallback.png" alt="Not support for video tag">
           </video>
           </div>
@@ -2099,6 +2099,10 @@
     <script>
       (() => {
         setTimeout(() => {
+          document.querySelector("#main-background-video").src = './assets/videos/smpl-bg.mp4';
+          document.querySelector("#main-background-video").load();
+          
+          document.querySelector("#main-background-video").autoplay = true;
           document.querySelector("#main-background-video").play();
           // window.scrollTo(window.scrollX, window.scrollY - 1);
           // window.scrollTo(window.scrollX, window.scrollY + 1);
