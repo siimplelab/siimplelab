@@ -289,7 +289,9 @@ section.client {
 }
 
 .icon-text.feature-box-2 .icon {
-  background-color: var(--brand-color-secondary);
+  // background-color: var(--brand-color-secondary);
+  background: transparent;
+  padding: 4px;
 }
 
 .team.style-2:hover .team-img.valid img {
