@@ -114,7 +114,7 @@ nav.navbar.bootsnav.navbar-fixed {
 nav.navbar.bootsnav.navbar-transparent.brand-center .logo,
 .brand-center .logo {
   z-index: 3001;
-  
+
   img {
     aspect-ratio: 138 / 42;
     width: auto;
@@ -152,23 +152,22 @@ nav.navbar.bootsnav.navbar-transparent.brand-center .logo,
   word-break: keep-all;
 }
 
-.feature-box i {
-  color: var(--brand-color-secondary);
-  padding: 0.4em;
-  background: var(--brand-color-secondary);
-  color: #fff;
-  border-radius: 50%;
-  border: 2px solid var(--brand-color-secondary);
-}
-
 .feature-box-default-bg:after {
   background: var(--brand-color-secondary);
 }
 
 .feature-box-default-bg:hover i {
-  border: 2px solid white;
+  path {
+    fill: white !important;
+  }
 }
 
+.mission-section {
+  span,
+  .panel-title {
+    color: black;
+  }
+}
 div {
   word-break: keep-all;
 }
