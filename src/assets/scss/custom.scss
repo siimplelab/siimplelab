@@ -10,7 +10,9 @@ html {
   // width: 100% !important;
   left: 0 !important;
 }
-
+nav.navbar.bootsnav ul.nav>li>a {
+  font-size: 14px;
+}
 /* 메인 텍스트 */
 #slide-3238-layer-10 {
   /* display: none;  */
@@ -58,7 +60,7 @@ nav.navbar.bootsnav.navbar-fixed {
 
 .navbar-menu-01,
 .navbar-menu-02 {
-  animation: navFadeIn 3s ease;
+  animation: navFadeIn 1s ease;
 }
 .navbar-menu-1 {
   z-index: 2001;
