@@ -2362,31 +2362,9 @@
               window.open("https://smpl-krmed.animaapp.io/");
             });
         }, 0);
-
-        async function init() {
-          // Wait for the DOM to be fully loaded
-          await new Promise(resolve => {
-            document.addEventListener('DOMContentLoaded', resolve);
-          });
-          await new Promise(resolve => {
-            document.querySelector('#rev_slider_1174_1').addEventListener('DOMContentLoaded', resolve);
-          });
-
-          const targetNode = document.getElementById();
-
-          // create an observer instance
-          // const observer = new MutationObserver((mutationsList, observer) => {
-          //   // Check if the target node has been added to the DOM
-          //   if (mutationsList.some())
-          // })
-          
-          // Your code to execute after the DOM is fully loaded
-          document.querySelector('nav.bootsnav.brand-center').style.setProperty('visibility', 'visible');
-        }
-
-        init();
       })();
     </script>
     <!-- <script type="module" src="./main.js"></script> -->
+    <script defer src="./custom.js"></script>
   </body>
 </html>
