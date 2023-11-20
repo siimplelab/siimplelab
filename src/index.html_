@@ -1,0 +1,2423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>단순함연구소 (siimplelab)</title>
+
+    <meta name="description" content="UI 개발 & 디자인 스튜디오" />
+    <meta name="author" content="단순함연구소 (siimplelab)" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="단순함연구소 (siimplelab)" />
+    <meta property="og:description" content="UI 개발 & 디자인 스튜디오" />
+    <meta
+      property="og:image"
+      content="https://siimplelab.com/favicon/siimplelab-profile.png"
+    />
+    <meta property="og:url" content="https://siimplelab.com/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="단순함연구소 (siimplelab)" />
+    <meta name="twitter:description" content="UI 개발 & 디자인 스튜디오" />
+    <meta
+      name="twitter:image"
+      content="https://siimplelab.com/favicon/siimplelab-profile.png"
+    />
+    <meta name="twitter:domain" content="단순함연구소 (siimplelab)" />
+
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css"
+    />
+    <!-- Core Style Sheets -->
+    <link rel="stylesheet" href="assets/css/master.css" />
+    <link rel="stylesheet" href="assets/scss/custom.scss" />
+    <!-- Responsive Style Sheets -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!-- Revolution Style Sheets -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/lib/revolution/css/settings.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/lib/revolution/css/layers.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/lib/revolution/css/navigation.css"
+    />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WJ1LP7PCHJ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-WJ1LP7PCHJ");
+    </script>
+  </head>
+  <body>
+    <!--== Loader Start ==-->
+    <div id="loader-overlay">
+      <div class="loader">
+        <div class="spinner-double-dot-in"></div>
+      </div>
+    </div>
+    <!--== Loader End ==-->
+
+    <!--== Wrapper Start ==-->
+    <div class="wrapper">
+      <!--== Header Start ==-->
+      <nav
+        class="navbar navbar-default navbar-fixed navbar-transparent dark bootsnav on no-full no-border studio brand-center"
+      >
+        <div class="container">
+          <!--== Start Header Navigation ==-->
+          <div class="navbar-header navbar-menu-01">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#navbar-menu"
+            >
+              <i class="tr-icon ion-android-menu"></i>
+            </button>
+            <div class="logo">
+              <a href="index.html"
+                ><img
+                  class="logo logo-display"
+                  src="assets/images/images__smpl/siimplelab-logo-modified-v2-color=Default.svg"
+                  alt=""
+                />
+                <img
+                  class="logo logo-scrolled"
+                  src="assets/images/images__smpl/siimplelab-logo-modified-v2-color=color2.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <!--== End Header Navigation ==-->
+
+          <!--== Collect the nav links, forms, and other content for toggling ==-->
+          <div class="collapse navbar-collapse navbar-menu-02" id="navbar-menu">
+            <ul
+              class="nav navbar-nav navbar-center"
+              data-in="fadeIn"
+              data-out="fadeOut"
+            >
+              <li><a class="page-scroll" href="#home">홈</a></li>
+              <li><a class="page-scroll" href="#feature">연구소</a></li>
+              <li><a class="page-scroll" href="#about">서비스</a></li>
+              <li><a class="page-scroll" href="#team">포트폴리오</a></li>
+              <li><a class="page-scroll" href="#contact">작업요청</a></li>
+              <li>
+                <a class="page-scroll" href="https://uxdev.org/" target="_blank"
+                  >블로그</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!--== /.navbar-collapse ==-->
+        </div>
+      </nav>
+      <!--== Header End ==-->
+
+      <!--== Hero Slider Start ==-->
+      <div class="remove-padding transition-none" id="home">
+        <div
+          id="rev_slider_1174_1_wrapper"
+          class="rev_slider_wrapper fullscreen-container"
+          data-alias="inspiration-header"
+          data-source="gallery"
+          style="background-color: #f9f9f9; padding: 0px"
+        >
+          <!-- START REVOLUTION SLIDER 5.4.1 fullscreen mode -->
+          <div
+            id="rev_slider_1174_1"
+            class="rev_slider fullscreenbanner"
+            style="display: none"
+            data-version="5.4.1"
+          >
+            <ul>
+              <!-- SLIDE  -->
+              <li
+                data-index="rs-3238"
+                data-transition="fade"
+                data-slotamount="default"
+                data-hideafterloop="0"
+                data-hideslideonmobile="off"
+                data-easein="default"
+                data-easeout="default"
+                data-masterspeed="500"
+                data-rotate="0"
+                data-saveperformance="off"
+                data-title="Slide"
+                data-param1=""
+                data-param2=""
+                data-param3=""
+                data-param4=""
+                data-param5=""
+                data-param6=""
+                data-param7=""
+                data-param8=""
+                data-param9=""
+                data-param10=""
+                data-description=""
+              >
+                <!-- MAIN IMAGE -->
+                <img
+                  src="assets/images/transparent.png"
+                  data-bgcolor="#f9f9f9"
+                  alt=""
+                  data-bgposition="center center"
+                  data-bgfit="cover"
+                  data-bgrepeat="no-repeat"
+                  data-bgparallax="off"
+                  class="rev-slidebg"
+                  data-no-retina
+                />
+                <!-- LAYERS -->
+
+                <!-- LAYER NR. 1 -->
+                <div
+                  class="tp-caption tp-resizeme rs-parallaxlevel-8"
+                  id="slide-3238-layer-1"
+                  data-x="['left','left','left','left']"
+                  data-hoffset="['-264','-264','-371','-416']"
+                  data-y="['top','top','top','top']"
+                  data-voffset="['-135','-135','-180','-203']"
+                  data-width="none"
+                  data-height="none"
+                  data-whitespace="nowrap"
+                  data-type="image"
+                  data-basealign="slide"
+                  data-responsive_offset="on"
+                  data-frames='[{"from":"x:left;rZ:-90deg;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                  data-textAlign="['left','left','left','left']"
+                  data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  style="z-index: 5; border-width: 0px"
+                >
+                  <img
+                    src="assets/images/header_penpot.png"
+                    alt=""
+                    data-ww="['650px','650px','650px','650px']"
+                    data-hh="['500px','500px','500px','500px']"
+                    width="650"
+                    height="500"
+                    data-no-retina
+                  />
+                </div>
+
+                <!-- LAYER NR. 2 -->
+                <div
+                  class="tp-caption tp-resizeme rs-parallaxlevel-9"
+                  id="slide-3238-layer-2"
+                  data-x="['right','right','right','right']"
+                  data-hoffset="['30','30','-70','-144']"
+                  data-y="['top','top','top','top']"
+                  data-voffset="['-204','-204','-233','-261']"
+                  data-width="none"
+                  data-height="none"
+                  data-whitespace="nowrap"
+                  data-type="image"
+                  data-basealign="slide"
+                  data-responsive_offset="on"
+                  data-frames='[{"from":"x:right;y:-500px;rZ:90deg;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                  data-textAlign="['left','left','left','left']"
+                  data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  style="z-index: 6; border-width: 0px"
+                >
+                  <img
+                    src="assets/images/header_flowerpot.png"
+                    alt=""
+                    data-ww="['700px','700px','700px','700px']"
+                    data-hh="['600px','600px','600px','600px']"
+                    width="700"
+                    height="600"
+                    data-no-retina
+                  />
+                </div>
+
+                <!-- LAYER NR. 3 -->
+                <div
+                  class="tp-caption tp-resizeme rs-parallaxlevel-10"
+                  id="slide-3238-layer-3"
+                  data-x="['left','left','left','left']"
+                  data-hoffset="['-372','-372','-540','-638']"
+                  data-y="['bottom','bottom','bottom','bottom']"
+                  data-voffset="['-484','-484','-520','-522']"
+                  data-width="none"
+                  data-height="none"
+                  data-whitespace="nowrap"
+                  data-type="image"
+                  data-basealign="slide"
+                  data-responsive_offset="on"
+                  data-frames='[{"from":"x:left;rZ:45deg;","speed":2500,"to":"o:1;","delay":650,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                  data-textAlign="['left','left','left','left']"
+                  data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  style="z-index: 7; border-width: 0px"
+                >
+                  <img
+                    src="assets/images/header_papers.png"
+                    alt=""
+                    data-ww="['900px','900px','900px','900px']"
+                    data-hh="['1000px','1000px','1000px','1000px']"
+                    width="900"
+                    height="1000"
+                    data-no-retina
+                  />
+                </div>
+
+                <!-- LAYER NR. 4 -->
+                <div
+                  class="tp-caption tp-resizeme rs-parallaxlevel-12"
+                  id="slide-3238-layer-4"
+                  data-x="['left','left','left','left']"
+                  data-hoffset="['134','134','-2','-57']"
+                  data-y="['bottom','bottom','bottom','bottom']"
+                  data-voffset="['67','67','50','6']"
+                  data-width="none"
+                  data-height="none"
+                  data-whitespace="nowrap"
+                  data-type="image"
+                  data-basealign="slide"
+                  data-responsive_offset="on"
+                  data-frames='[{"from":"y:bottom;rZ:90deg;","speed":1500,"to":"o:1;","delay":1050,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                  data-textAlign="['left','left','left','left']"
+                  data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  style="z-index: 8; border-width: 0px"
+                >
+                  <img
+                    src="assets/images/header_marker.png"
+                    alt=""
+                    data-ww="['200px','200px','200px','200px']"
+                    data-hh="['300px','300px','300px','300px']"
+                    width="200"
+                    height="300"
+                    data-no-retina
+                  />
+                </div>
+
+                <!-- LAYER NR. 5 -->
+                <div
+                  class="tp-caption tp-resizeme rs-parallaxlevel-11"
+                  id="slide-3238-layer-5"
+                  data-x="['left','left','left','left']"
+                  data-hoffset="['181','181','30','-39']"
+                  data-y="['bottom','bottom','bottom','bottom']"
+                  data-voffset="['-170','-170','-190','-212']"
+                  data-width="none"
+                  data-height="none"
+                  data-whitespace="nowrap"
+                  data-type="image"
+                  data-basealign="slide"
+                  data-responsive_offset="on"
+                  data-frames='[{"from":"y:bottom;rZ:-90deg;","speed":1500,"to":"o:1;","delay":1250,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                  data-textAlign="['left','left','left','left']"
+                  data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  style="z-index: 9; border-width: 0px"
+                >
+                  <img
+                    src="assets/images/header_edding.png"
+                    alt=""
+                    data-ww="['300px','300px','300px','300px']"
+                    data-hh="['400px','400px','400px','400px']"
+                    width="300"
+                    height="400"
+                    data-no-retina
+                  />
+                </div>
+
+                <!-- LAYER NR. 6 -->
+                <div
+                  class="tp-caption tp-resizeme rs-parallaxlevel-12"
+                  id="slide-3238-layer-6"
+                  data-x="['left','left','left','left']"
+                  data-hoffset="['393','393','201','81']"
+                  data-y="['bottom','bottom','bottom','bottom']"
+                  data-voffset="['218','218','183','191']"
+                  data-width="none"
+                  data-height="none"
+                  data-whitespace="nowrap"
+                  data-type="image"
+                  data-basealign="slide"
+                  data-responsive_offset="on"
+                  data-frames='[{"from":"y:bottom;rZ:-90deg;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                  data-textAlign="['left','left','left','left']"
+                  data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  style="z-index: 10; border-width: 0px"
+                >
+                  <img
+                    src="assets/images/header_paperclip.png"
+                    alt=""
+                    data-ww="['50px','50px','50px','50px']"
+                    data-hh="['100px','100px','100px','100px']"
+                    width="50"
+                    height="100"
+                    data-no-retina
+                  />
+                </div>
+
+                <!-- LAYER NR. 7 -->
+                <div
+                  class="tp-caption tp-resizeme rs-parallaxlevel-11"
+                  id="slide-3238-layer-7"
+                  data-x="['left','left','left','left']"
+                  data-hoffset="['346','346','165','36']"
+                  data-y="['bottom','bottom','bottom','bottom']"
+                  data-voffset="['255','255','237','231']"
+                  data-width="none"
+                  data-height="none"
+                  data-whitespace="nowrap"
+                  data-type="image"
+                  data-basealign="slide"
+                  data-responsive_offset="on"
+                  data-frames='[{"from":"y:bottom;rZ:90deg;","speed":2000,"to":"o:1;rZ:310;","delay":550,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                  data-textAlign="['left','left','left','left']"
+                  data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  style="z-index: 11; border-width: 0px"
+                >
+                  <img
+                    src="assets/images/header_paperclip.png"
+                    alt=""
+                    data-ww="['50px','50px','50px','50px']"
+                    data-hh="['100px','100px','100px','100px']"
+                    width="50"
+                    height="100"
+                    data-no-retina
+                  />
+                </div>
+
+                <!-- LAYER NR. 8 -->
+                <div
+                  class="tp-caption tp-resizeme rs-parallaxlevel-9"
+                  id="slide-3238-layer-8"
+                  data-x="['right','right','right','right']"
+                  data-hoffset="['-364','-364','-479','-553']"
+                  data-y="['bottom','bottom','bottom','bottom']"
+                  data-voffset="['-155','-155','-180','-202']"
+                  data-width="none"
+                  data-height="none"
+                  data-whitespace="nowrap"
+                  data-type="image"
+                  data-basealign="slide"
+                  data-responsive_offset="on"
+                  data-frames='[{"from":"x:right;rZ:-65deg;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                  data-textAlign="['left','left','left','left']"
+                  data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  style="z-index: 12; border-width: 0px"
+                >
+                  <img
+                    src="assets/images/header_tablet.png"
+                    alt=""
+                    data-ww="['730px','730px','730px','730px']"
+                    data-hh="['520px','520px','520px','520px']"
+                    width="730"
+                    height="520"
+                    data-no-retina
+                  />
+                </div>
+
+                <!-- LAYER NR. 9 -->
+                <div
+                  class="tp-caption tp-resizeme rs-parallaxlevel-11"
+                  id="slide-3238-layer-9"
+                  data-x="['right','right','right','right']"
+                  data-hoffset="['222','222','105','8']"
+                  data-y="['bottom','bottom','bottom','bottom']"
+                  data-voffset="['8','8','-17','-10']"
+                  data-width="none"
+                  data-height="none"
+                  data-whitespace="nowrap"
+                  data-type="image"
+                  data-basealign="slide"
+                  data-responsive_offset="on"
+                  data-frames='[{"from":"x:right;rZ:90deg;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                  data-textAlign="['left','left','left','left']"
+                  data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  style="z-index: 13; border-width: 0px"
+                >
+                  <img
+                    src="assets/images/header_pen.png"
+                    alt=""
+                    data-ww="['300px','300px','300px','300px']"
+                    data-hh="['500px','500px','500px','500px']"
+                    width="300"
+                    height="500"
+                    data-no-retina
+                  />
+                </div>
+
+                <!-- LAYER NR. 10 -->
+                <div
+                  class="tp-caption tp-resizeme rs-parallaxlevel-2"
+                  id="slide-3238-layer-10"
+                  data-x="['center','center','center','center']"
+                  data-hoffset="['0','0','0','0']"
+                  data-y="['middle','middle','middle','middle']"
+                  data-voffset="['-70','-70','-70','-90']"
+                  data-fontsize="['60','60','54','54']"
+                  data-lineheight="['58','58','48','48']"
+                  data-width="['none','none','none','360']"
+                  data-height="none"
+                  data-whitespace="['nowrap','nowrap','nowrap','normal']"
+                  data-type="text"
+                  data-responsive_offset="on"
+                  data-frames='[{"from":"y:-50px;rX:-45deg;sX:2;sY:2;opacity:0;","speed":1500,"to":"o:1;","delay":510,"ease":"Power4.easeOut"},{"delay":640,"speed":600,"to":"y:30px;rX:45deg;sX:0.8;sY:0.8;opacity:0;","ease":"Power2.easeInOut"}]'
+                  data-textAlign="['center','center','center','center']"
+                  data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  style="
+                    z-index: 14;
+                    white-space: nowrap;
+                    /* font-size: 80px; */
+                    /* line-height: 80px; */
+                    font-weight: 800;
+                    color: rgba(0, 0, 0, 1);
+                    font-family: 'Pretendard', sans-serif;
+                    border-width: 0px;
+                    text-transform: uppercase;
+                  "
+                >
+                  복잡한 디지털을
+                </div>
+
+                <!-- LAYER NR. 11 -->
+                <div
+                  class="tp-caption tp-resizeme rs-parallaxlevel-2"
+                  id="slide-3238-layer-11"
+                  data-x="['center','center','center','center']"
+                  data-hoffset="['0','0','0','0']"
+                  data-y="['middle','middle','middle','middle']"
+                  data-voffset="['-70','-70','-70','-90']"
+                  data-fontsize="['60','60','54','54']"
+                  data-lineheight="['58','58','48','48']"
+                  data-width="['none','none','none','360']"
+                  data-height="none"
+                  data-whitespace="['nowrap','nowrap','nowrap','normal']"
+                  data-type="text"
+                  data-responsive_offset="on"
+                  data-frames='[{"from":"y:-50px;rX:-45deg;sX:2;sY:2;opacity:0;","speed":1500,"to":"o:1;","delay":2940,"ease":"Power4.easeOut"},{"delay":660,"speed":600,"to":"y:30px;rX:45deg;sX:0.8;sY:0.8;opacity:0;","ease":"Power2.easeInOut"}]'
+                  data-textAlign="['center','center','center','center']"
+                  data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  style="
+                    z-index: 15;
+                    white-space: nowrap;
+                    /* font-size: 80px; */
+                    /* line-height: 80px; */
+                    font-weight: 800;
+                    color: rgba(0, 0, 0, 1);
+                    font-family: 'Pretendard', sans-serif;
+                    border-width: 0px;
+                    text-transform: uppercase;
+                  "
+                >
+                  단순하게
+                </div>
+
+                <!-- LAYER NR. 12 -->
+                <div
+                  class="tp-caption tp-resizeme rs-parallaxlevel-2"
+                  id="slide-3238-layer-12"
+                  data-x="['center','center','center','center']"
+                  data-hoffset="['0','0','0','0']"
+                  data-y="['middle','middle','middle','middle']"
+                  data-voffset="['-70','-70','-70','-90']"
+                  data-fontsize="['60','60','54','54']"
+                  data-lineheight="['58','58','48','48']"
+                  data-width="['none','none','none','400']"
+                  data-height="none"
+                  data-whitespace="['nowrap','nowrap','nowrap','normal']"
+                  data-type="text"
+                  data-responsive_offset="on"
+                  data-frames='[{"from":"y:-50px;rX:-45deg;sX:2;sY:2;opacity:0;","speed":1500,"to":"o:1;","delay":5390,"ease":"Power4.easeOut"},{"delay":"wait","speed":600,"to":"y:30px;rX:45deg;sX:0.8;sY:0.8;opacity:0;","ease":"Power2.easeInOut"}]'
+                  data-textAlign="['center','center','center','center']"
+                  data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  data-marginbottom="[0,0,0,24]"
+                  style="
+                    z-index: 16;
+                    white-space: nowrap;
+                    /* font-size: 80px; */
+                    /* line-height: 80px; */
+                    font-weight: 800;
+                    color: rgba(0, 0, 0, 1);
+                    font-family: 'Pretendard', sans-serif;
+                    border-width: 0px;
+                    text-transform: lowercase;
+                  "
+                >
+                  the less the better
+                </div>
+
+                <!-- LAYER NR. 13 -->
+                <div
+                  class="tp-caption tp-resizeme rs-parallaxlevel-2"
+                  id="slide-3238-layer-13"
+                  data-x="['center','center','center','center']"
+                  data-hoffset="['-8','-8','-8','-8']"
+                  data-y="['middle','middle','middle','middle']"
+                  data-voffset="['10','10','10','-10']"
+                  data-fontsize="['20','20','20','20']"
+                  data-lineheight="['26','26','26','26']"
+                  data-width="['none','none','none','360']"
+                  data-height="none"
+                  data-whitespace="['nowrap','nowrap','nowrap','normal']"
+                  data-type="text"
+                  data-responsive_offset="on"
+                  data-frames='[{"from":"y:50px;rX:45deg;sX:2;sY:2;opacity:0;","speed":1500,"to":"o:1;","delay":600,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                  data-textAlign="['center','center','center','center']"
+                  data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  style="
+                    z-index: 17;
+                    white-space: nowrap;
+                    font-size: 20px;
+                    line-height: 1.37;
+                    font-weight: 500;
+                    color: rgba(0, 0, 0, 1);
+                    font-family: 'Pretendard', sans-serif;
+                    border-width: 0px;
+                  "
+                >
+                  UI 개발 & 디자인 스튜디오 '단순함연구소'
+                </div>
+
+                <!-- LAYER NR. 14 -->
+                <div
+                  class="tp-caption rev-btn rs-parallaxlevel-3"
+                  id="slide-3238-layer-14"
+                  data-x="['center','center','center','center']"
+                  data-hoffset="['0','0','0','0']"
+                  data-y="['middle','middle','middle','middle']"
+                  data-voffset="['92','92','92','92']"
+                  ,
+                  data-fontsize="['14','14','12','12']"
+                  data-lineheight="['38','38','36', '36']"
+                  data-width="none"
+                  data-height="none"
+                  data-whitespace="nowrap"
+                  data-type="button"
+                  data-actions='[{"event":"click","action":"scrollbelow","offset":"px","delay":""}]'
+                  data-responsive_offset="on"
+                  data-responsive="off"
+                  data-frames='[{"from":"y:100px;rX:90deg;opacity:0;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);bg:rgba(118, 118, 118, 1.00);bs:solid;"}]'
+                  data-textAlign="['left','left','left','left']"
+                  data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[30,30,30,30]"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[30,30,30,30]"
+                  style="
+                    z-index: 18;
+                    white-space: nowrap;
+                    font-size: 15px;
+                    line-height: 38px;
+                    font-weight: 700;
+                    color: rgba(255, 255, 255, 1);
+                    font-family: 'Pretendard', sans-serif;
+                    background-color: #2b71d6;
+                    border-color: #2b71d6;
+                    border-width: 0px;
+                    border-radius: 3px 3px 3px 3px;
+                    outline: none;
+                    box-shadow: none;
+                    box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    -webkit-box-sizing: border-box;
+                    letter-spacing: 0;
+                    cursor: pointer;
+                    border-radius: 2000px;
+                  "
+                >
+                  자세히 보기
+                </div>
+
+                <!-- LAYER NR. 15 -->
+                <div
+                  class="tp-caption rev-scroll-btn revs-light rs-parallaxlevel-5 dark"
+                  id="slide-3238-layer-15"
+                  data-x="['center','center','center','center']"
+                  data-hoffset="['0','0','0','0']"
+                  data-y="['bottom','bottom','bottom','bottom']"
+                  data-voffset="['50','50','50','50']"
+                  data-width="27"
+                  data-height="45"
+                  data-whitespace="nowrap"
+                  data-type="button"
+                  data-actions='[{"event":"click","action":"scrollbelow","offset":"px","delay":""}]'
+                  data-basealign="slide"
+                  data-responsive_offset="on"
+                  data-responsive="off"
+                  data-frames='[{"from":"y:-50px;opacity:0;","speed":1500,"to":"o:1;","delay":800,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                  data-textAlign="['left','left','left','left']"
+                  data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  style="
+                    z-index: 19;
+                    min-width: 35px;
+                    max-width: 35px;
+                    max-width: 55px;
+                    max-width: 55px;
+                    white-space: nowrap;
+                    font-weight: 400;
+                    border-color: rgba(0, 0, 0, 1);
+                    border-style: solid;
+                    border-width: 2px;
+                    border-radius: 23px 23px 23px 23px;
+                    box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    -webkit-box-sizing: border-box;
+                    cursor: pointer;
+                  "
+                >
+                  <span> </span>
+                </div>
+              </li>
+            </ul>
+            <!-- <div class="tp-bannertimer" style="height: 5px; background-color: rgba(255, 255, 255, 0.25);"></div> -->
+            <div
+              class="tp-bannertimer tp-bottom"
+              style="visibility: hidden !important"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <!--== Hero Slider End ==-->
+
+      <!--== Who We Are Start ==-->
+      <div class="white-bg pt-120 pb-120" id="feature">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 centerize-col text-center">
+              <div class="section-title">
+                <h4 class="default-color">
+                  단순함연구소의 특장점은 다음과 같아요
+                </h4>
+                <h1>UI 개발<span>(웹 퍼블리싱)</span> / UI 디자인 / 웹 개발</h1>
+                <p>
+                  단순함연구소는 복잡한 디지털을 소재로 단순함을 미덕으로 하는
+                  미디어 산출물을 제작해요.<br />
+                  접근성, 웹표준, SEO를 준수하면서 높은 가독성의 코드와
+                  유지보수가 편한 문서를 특징으로 해요.<br />
+                  필요한 경우, 디자인시스템 기반 UI 디자인이 함께 제공되며,
+                  웹사이트 구축까지 원스톱으로 진행 가능해요.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-50">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div
+                class="feature-box text-center xs-mb-30 sm-mb-30 feature-box-default-bg light-border center-feature wow fadeInLeft"
+                data-wow-delay="0.1s"
+              >
+                <!-- <i class="icofont icofont-layers font-40px"></i> -->
+                <i>
+                  <svg
+                    width="64"
+                    height="64"
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M32 22C26.4772 22 22 26.4772 22 32C22 37.5228 26.4772 42 32 42C37.5228 42 42 37.5228 42 32C42 26.4772 37.5228 22 32 22ZM18 32C18 24.268 24.268 18 32 18C39.732 18 46 24.268 46 32C46 39.732 39.732 46 32 46C24.268 46 18 39.732 18 32Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M15 12C13.3431 12 12 13.3431 12 15C12 16.6569 13.3431 18 15 18C16.6569 18 18 16.6569 18 15C18 13.3431 16.6569 12 15 12ZM8 15C8 11.134 11.134 8 15 8C18.866 8 22 11.134 22 15C22 18.866 18.866 22 15 22C11.134 22 8 18.866 8 15Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M49 12C47.3431 12 46 13.3431 46 15C46 16.6569 47.3431 18 49 18C50.6569 18 52 16.6569 52 15C52 13.3431 50.6569 12 49 12ZM42 15C42 11.134 45.134 8 49 8C52.866 8 56 11.134 56 15C56 18.866 52.866 22 49 22C45.134 22 42 18.866 42 15Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M15 46C13.3431 46 12 47.3431 12 49C12 50.6569 13.3431 52 15 52C16.6569 52 18 50.6569 18 49C18 47.3431 16.6569 46 15 46ZM8 49C8 45.134 11.134 42 15 42C18.866 42 22 45.134 22 49C22 52.866 18.866 56 15 56C11.134 56 8 52.866 8 49Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M49 46C47.3431 46 46 47.3431 46 49C46 50.6569 47.3431 52 49 52C50.6569 52 52 50.6569 52 49C52 47.3431 50.6569 46 49 46ZM42 49C42 45.134 45.134 42 49 42C52.866 42 56 45.134 56 49C56 52.866 52.866 56 49 56C45.134 56 42 52.866 42 49Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M39.0721 39.0721C39.8532 38.291 41.1195 38.291 41.9005 39.0721L46.879 44.0506C47.6601 44.8316 47.6601 46.098 46.879 46.879C46.098 47.6601 44.8317 47.6601 44.0506 46.879L39.0721 41.9005C38.2911 41.1195 38.2911 39.8531 39.0721 39.0721Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.1209 17.121C17.902 16.3399 19.1683 16.3399 19.9494 17.121L24.9308 22.1024C25.7118 22.8834 25.7118 24.1498 24.9308 24.9308C24.1497 25.7118 22.8834 25.7118 22.1023 24.9308L17.1209 19.9494C16.3399 19.1684 16.3399 17.902 17.1209 17.121Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M24.9288 39.0702C25.7098 39.8512 25.7098 41.1175 24.9288 41.8986L19.9494 46.8781C19.1683 47.6592 17.902 47.6592 17.121 46.8781C16.3399 46.0971 16.3399 44.8308 17.1209 44.0497L22.1003 39.0702C22.8814 38.2891 24.1477 38.2891 24.9288 39.0702Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M46.8996 17.1004C47.6806 17.8814 47.6806 19.1478 46.8996 19.9288L41.8996 24.9288C41.1185 25.7098 39.8522 25.7098 39.0711 24.9288C38.2901 24.1478 38.2901 22.8814 39.0711 22.1004L44.0711 17.1004C44.8522 16.3193 46.1185 16.3193 46.8996 17.1004Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M32 28C29.7909 28 28 29.7909 28 32C28 34.2091 29.7909 36 32 36C34.2091 36 36 34.2091 36 32C36 29.7909 34.2091 28 32 28ZM24 32C24 27.5817 27.5817 24 32 24C36.4183 24 40 27.5817 40 32C40 36.4183 36.4183 40 32 40C27.5817 40 24 36.4183 24 32Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M32 12C33.1046 12 34 12.8954 34 14V26C34 27.1046 33.1046 28 32 28C30.8954 28 30 27.1046 30 26V14C30 12.8954 30.8954 12 32 12Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M32 36C33.1046 36 34 36.8954 34 38V50C34 51.1046 33.1046 52 32 52C30.8954 52 30 51.1046 30 50V38C30 36.8954 30.8954 36 32 36Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M12 32C12 30.8954 12.8954 30 14 30H26C27.1046 30 28 30.8954 28 32C28 33.1046 27.1046 34 26 34H14C12.8954 34 12 33.1046 12 32Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M36 32C36 30.8954 36.8954 30 38 30H50C51.1046 30 52 30.8954 52 32C52 33.1046 51.1046 34 50 34H38C36.8954 34 36 33.1046 36 32Z"
+                      fill="#3F6FCF"
+                    />
+                  </svg>
+                </i>
+                <h4 class="mt-0 font-600">컴포넌트 기반 CSS</h4>
+                <p class="font-400">
+                  Sass, 부트스트랩, 테일윈드 등 컴포넌트 기반 프레임워크 활용
+                  코딩 및 디자인시스템 구축
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div
+                class="feature-box text-center xs-mb-30 sm-mb-30 feature-box-default-bg light-border center-feature wow fadeInUp"
+                data-wow-delay="0.2s"
+              >
+                <i>
+                  <svg
+                    width="64"
+                    height="64"
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M26 24C25.4696 24 24.9609 24.2107 24.5858 24.5858C24.2107 24.9609 24 25.4696 24 26V54C24 55.1046 23.1046 56 22 56C20.8954 56 20 55.1046 20 54V26C20 24.4087 20.6321 22.8826 21.7574 21.7574C22.8826 20.6321 24.4087 20 26 20C27.5913 20 29.1174 20.6321 30.2426 21.7574C31.3679 22.8826 32 24.4087 32 26V32.3431C32.6364 32.1181 33.3121 32 34 32C35.4797 32 36.903 32.5466 38 33.5279C39.097 32.5466 40.5203 32 42 32C43.5913 32 45.1174 32.6321 46.2426 33.7574C46.9877 34.5024 47.5165 35.4232 47.7889 36.4223C48.486 36.1459 49.2355 36 50 36C51.5913 36 53.1174 36.6321 54.2426 37.7574C55.3679 38.8826 56 40.4087 56 42V54C56 55.1046 55.1046 56 54 56C52.8954 56 52 55.1046 52 54V42C52 41.4696 51.7893 40.9609 51.4142 40.5858C51.0391 40.2107 50.5304 40 50 40C49.4696 40 48.9609 40.2107 48.5858 40.5858C48.2107 40.9609 48 41.4696 48 42C48 43.1046 47.1046 44 46 44C44.8954 44 44 43.1046 44 42V38C44 37.4696 43.7893 36.9609 43.4142 36.5858C43.0391 36.2107 42.5304 36 42 36C41.4696 36 40.9609 36.2107 40.5858 36.5858C40.2107 36.9609 40 37.4696 40 38C40 39.1046 39.1046 40 38 40C36.8954 40 36 39.1046 36 38C36 37.4696 35.7893 36.9609 35.4142 36.5858C35.0391 36.2107 34.5304 36 34 36C33.4696 36 32.9609 36.2107 32.5858 36.5858C32.2107 36.9609 32 37.4696 32 38C32 39.1046 31.1046 40 30 40C28.8954 40 28 39.1046 28 38V26C28 25.4696 27.7893 24.9609 27.4142 24.5858C27.0391 24.2107 26.5304 24 26 24Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M38 36C39.1046 36 40 36.8954 40 38V46C40 47.1046 39.1046 48 38 48C36.8954 48 36 47.1046 36 46V38C36 36.8954 36.8954 36 38 36Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M46 36C47.1046 36 48 36.8954 48 38V46C48 47.1046 47.1046 48 46 48C44.8954 48 44 47.1046 44 46V38C44 36.8954 44.8954 36 46 36Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M30 36C31.1046 36 32 36.8954 32 38V46C32 47.1046 31.1046 48 30 48C28.8954 48 28 47.1046 28 46V38C28 36.8954 28.8954 36 30 36Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M26 8C27.1046 8 28 8.89543 28 10V16C28 17.1046 27.1046 18 26 18C24.8954 18 24 17.1046 24 16V10C24 8.89543 24.8954 8 26 8Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M8 24C8 22.8954 8.89543 22 10 22H16C17.1046 22 18 22.8954 18 24C18 25.1046 17.1046 26 16 26H10C8.89543 26 8 25.1046 8 24Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M34 24C34 22.8954 34.8954 22 36 22H42C43.1046 22 44 22.8954 44 24C44 25.1046 43.1046 26 42 26H36C34.8954 26 34 25.1046 34 24Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M13.5858 12.5858C14.3668 11.8047 15.6332 11.8047 16.4142 12.5858L20.4142 16.5858C21.1953 17.3668 21.1953 18.6332 20.4142 19.4142C19.6332 20.1953 18.3668 20.1953 17.5858 19.4142L13.5858 15.4142C12.8047 14.6332 12.8047 13.3668 13.5858 12.5858Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M38.4142 12.5858C39.1953 13.3668 39.1953 14.6332 38.4142 15.4142L34.4142 19.4142C33.6332 20.1953 32.3668 20.1953 31.5858 19.4142C30.8047 18.6332 30.8047 17.3668 31.5858 16.5858L35.5858 12.5858C36.3668 11.8047 37.6332 11.8047 38.4142 12.5858Z"
+                      fill="#3F6FCF"
+                    />
+                  </svg>
+                </i>
+                <!-- <i class="icofont icofont-code-alt font-40px"></i> -->
+                <h4 class="mt-0 font-600">접근성, 웹표준, SEO</h4>
+                <p class="font-400">
+                  접근성과 웹표준, 그리고 검색엔진최적화(SEO)를 통해 신뢰도 높은
+                  마크업 산출물 제공
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div
+                class="feature-box text-center xs-mb-30 feature-box-default-bg light-border center-feature wow fadeInDown"
+                data-wow-delay="0.3s"
+              >
+                <i>
+                  <svg
+                    width="64"
+                    height="64"
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M31.9999 8C32.7024 8 33.3534 8.3686 33.7148 8.97101L36.1148 12.971C36.4856 13.5889 36.4953 14.3584 36.1403 14.9854C35.7852 15.6124 35.1204 16 34.3999 16H29.5999C28.8793 16 28.2145 15.6124 27.8595 14.9854C27.5044 14.3584 27.5142 13.5889 27.8849 12.971L30.2849 8.97101C30.6463 8.3686 31.2973 8 31.9999 8Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M27.8851 12.971C28.2466 12.3686 28.8976 12 29.6001 12H34.4004C35.103 12 35.754 12.3686 36.1154 12.9711L39.715 18.9711C39.9015 19.2819 40 19.6375 40 20V52L40 52.006C39.9968 53.0643 39.575 54.0783 38.8267 54.8267C38.0783 55.575 37.0643 55.9968 36.006 56L36 56H28L27.9943 56C26.9359 55.997 25.9217 55.5752 25.1732 54.8268C24.4248 54.0783 24.003 53.0641 24 52.0057L24 52V20C24 19.6375 24.0985 19.2818 24.285 18.971L27.8851 12.971ZM30.7325 16L28 20.554V51.9946C28.0001 51.996 28.0007 51.9973 28.0017 51.9983C28.0027 51.9993 28.004 51.9999 28.0054 52H35.9942C35.9957 51.9999 35.9972 51.9993 35.9982 51.9982C35.9988 51.9977 35.9993 51.997 35.9996 51.9962C35.9998 51.9956 36 51.995 36 51.9943V20.5539L33.268 16H30.7325Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M24 48C24 46.8954 24.8954 46 26 46H38C39.1046 46 40 46.8954 40 48C40 49.1046 39.1046 50 38 50H26C24.8954 50 24 49.1046 24 48Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M32 21C33.1046 21 34 21.8954 34 23V47C34 48.1046 33.1046 49 32 49C30.8954 49 30 48.1046 30 47V23C30 21.8954 30.8954 21 32 21Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M24.2111 19.1056C24.7051 18.1176 25.9064 17.7172 26.8944 18.2112L32.8944 21.2112C33.8823 21.7051 34.2828 22.9065 33.7888 23.8944C33.2948 24.8824 32.0935 25.2828 31.1055 24.7889L25.1055 21.7889C24.1176 21.2949 23.7171 20.0935 24.2111 19.1056Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M39.7888 19.1056C40.2828 20.0935 39.8823 21.2949 38.8944 21.7889L32.8944 24.7889C31.9064 25.2828 30.7051 24.8824 30.2111 23.8944C29.7171 22.9065 30.1176 21.7051 31.1055 21.2112L37.1055 18.2112C38.0935 17.7172 39.2948 18.1176 39.7888 19.1056Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M13.1716 15.1716C13.9217 14.4215 14.9391 14 15.9999 14H21C22.1046 14 23 14.8954 23 16C23 17.1046 22.1046 18 21 18H16.0001L16 28C16 28.5304 15.7893 29.0391 15.4142 29.4142L12.8284 32L15.4142 34.5858C15.7893 34.9609 16 35.4696 16 36V45.9999L20 46C21.1046 46 22 46.8954 22 48C22 49.1046 21.1046 50 20 50H16C14.9392 50 13.9217 49.5785 13.1716 48.8284C12.4215 48.0783 12 47.0609 12 46.0001V36.8284L8.58579 33.4142C7.80474 32.6332 7.80474 31.3668 8.58579 30.5858L12 27.1716V18C12 16.9392 12.4215 15.9217 13.1716 15.1716Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M41 16C41 14.8954 41.8954 14 43 14H48C49.0608 14 50.0783 14.4215 50.8284 15.1716C51.5785 15.9217 52 16.9391 52 17.9999V27.1716L55.4142 30.5858C56.1953 31.3668 56.1953 32.6332 55.4142 33.4142L52 36.8284V46C52 47.0608 51.5785 48.0783 50.8284 48.8284C50.0783 49.5785 49.0609 50 48.0001 50H44C42.8954 50 42 49.1046 42 48C42 46.8954 42.8954 46 44 46H47.9999L48 36C48 35.4696 48.2107 34.9609 48.5858 34.5858L51.1716 32L48.5858 29.4142C48.2107 29.0391 48 28.5304 48 28V18.0001L43 18C41.8954 18 41 17.1046 41 16Z"
+                      fill="#3F6FCF"
+                    />
+                  </svg>
+                </i>
+                <!-- <i class="icofont icofont-verification-check font-40px"></i> -->
+                <h4 class="mt-0 font-600">디자인디테일 퍼스트</h4>
+                <p class="font-400">
+                  디자인 단의 섬세함과 관련 지식을 바탕으로 딱 봐도 완성도가
+                  높은 UI 코드를 구성해 드려요
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div
+                class="feature-box text-center feature-box-default-bg light-border center-feature wow fadeInRight"
+                data-wow-delay="0.4s"
+              >
+                <i>
+                  <svg
+                    width="64"
+                    height="64"
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M12 10C12 8.89543 12.8954 8 14 8H42C42.5304 8 43.0391 8.21071 43.4142 8.58579L51.4142 16.5858C51.7893 16.9609 52 17.4696 52 18V54C52 55.1046 51.1046 56 50 56H14C12.8954 56 12 55.1046 12 54V10ZM16 12V52H48V18.8284L41.1716 12H16Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M40 8C41.1046 8 42 8.89543 42 10V18H50C51.1046 18 52 18.8954 52 20C52 21.1046 51.1046 22 50 22H40C38.8954 22 38 21.1046 38 20V10C38 8.89543 38.8954 8 40 8Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M34.5858 24.5858C35.3668 23.8047 36.6332 23.8047 37.4142 24.5858L43.4142 30.5858C44.1953 31.3668 44.1953 32.6332 43.4142 33.4142L37.4142 39.4142C36.6332 40.1953 35.3668 40.1953 34.5858 39.4142C33.8047 38.6332 33.8047 37.3668 34.5858 36.5858L39.1716 32L34.5858 27.4142C33.8047 26.6332 33.8047 25.3668 34.5858 24.5858Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M29.4142 24.5858C30.1953 25.3668 30.1953 26.6332 29.4142 27.4142L24.8284 32L29.4142 36.5858C30.1953 37.3668 30.1953 38.6332 29.4142 39.4142C28.6332 40.1953 27.3668 40.1953 26.5858 39.4142L20.5858 33.4142C19.8047 32.6332 19.8047 31.3668 20.5858 30.5858L26.5858 24.5858C27.3668 23.8047 28.6332 23.8047 29.4142 24.5858Z"
+                      fill="#3F6FCF"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M12 46C12 44.8954 12.8954 44 14 44H50C51.1046 44 52 44.8954 52 46C52 47.1046 51.1046 48 50 48H14C12.8954 48 12 47.1046 12 46Z"
+                      fill="#3F6FCF"
+                    />
+                  </svg>
+                </i>
+                <!-- <i class="icofont icofont-page font-40px"></i> -->
+                <h4 class="mt-0 font-600">맞춤형작업, 문서제공</h4>
+                <p class="font-400">
+                  작업 특성 기반 요구사항 반영 및 가독성/효율성을 고려한
+                  코딩으로, 쉬운 관리 환경 제공해요
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--== Who We Are End ==-->
+
+      <!--== About Company Start ==-->
+      <div class="dark-bg pt-0 pb-0 about-section sm-pt-50 sm-pb-50" id="about">
+        <div class="col-md-6 col-sm-6 bg-flex bg-flex-left">
+          <div class="bg-flex-holder bg-flex-cover about-section-bg">
+            <video
+              id="main-background-video"
+              autoplay=""
+              muted=""
+              loop=""
+              preload="auto"
+              autobuffer=""
+              playsinline=""
+              poster=""
+            >
+              <source src="./assets/videos/smpl-bg.mp4" type="video/mp4" />
+              <img
+                src="./assets/images/landing-video-fallback.png"
+                alt="Not support for video tag"
+              />
+            </video>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="col-md-6 col-sm-6 col-md-offset-6 col-sm-offset-6">
+            <div
+              class="col-inner spacer text-left wow fadeInLeft"
+              data-wow-delay="0.1s"
+            >
+              <div class="mission-section xs-mb-80">
+                <div class="section-title">
+                  <h4 class="default-color">단순함연구소는 이런 일을 해요</h4>
+                  <h1 class="white-color">제공 서비스</h1>
+                  <p>
+                    웹표준 준수와 범용적인 라이브러리 활용 및 가독성 높은 코드와
+                    관리용 문서 제공을 통해 단순하지만 명쾌하게 잘 작동하여
+                    비즈니스에 도움이 될 수 있는 UI 디자인과 코드를 전달하고자
+                    해요.
+                  </p>
+                </div>
+                <div
+                  class="panel-group accordion-style-01"
+                  id="accordion-style"
+                >
+                  <div class="panel">
+                    <div class="panel-heading active-accordion">
+                      <a
+                        data-toggle="collapse"
+                        data-parent="#accordion-style"
+                        href="#question1"
+                        aria-expanded="false"
+                        class="collapsed"
+                      >
+                        <div class="panel-title">
+                          (UI 개발) 마크업 개발
+                          <span class="pull-right"
+                            ><i class="ion-android-remove"></i
+                          ></span>
+                        </div>
+                      </a>
+                    </div>
+                    <div
+                      id="question1"
+                      class="panel-collapse collapse in"
+                      aria-expanded="false"
+                      role="tablist"
+                    >
+                      <div class="panel-body">
+                        <span
+                          style="
+                            font-weight: bold;
+                            margin-bottom: 0.5em;
+                            display: block;
+                          "
+                          >HTML, CSS, SCSS</span
+                        >
+                        접근성, 웹표준, SEO에 최적화된 마크업을 개발해요. 특히
+                        CSS의 경우 모던 기술을 활용해 효율적 작업이 가능하게
+                        하며, 가독성 높은 코드와 상세한 문서 제공을 통해 작업물
+                        이관 이후에도 활용이 쉽게 해요.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel">
+                    <div class="panel-heading">
+                      <a
+                        data-toggle="collapse"
+                        data-parent="#accordion-style"
+                        href="#question2"
+                        aria-expanded="false"
+                        class="collapsed"
+                      >
+                        <div class="panel-title">
+                          (UI 개발) 인터랙션 개발
+                          <span class="pull-right"
+                            ><i class="ion-android-add"></i
+                          ></span>
+                        </div>
+                      </a>
+                    </div>
+                    <div
+                      id="question2"
+                      class="panel-collapse collapse"
+                      aria-expanded="false"
+                      role="tablist"
+                    >
+                      <div class="panel-body">
+                        <span
+                          style="
+                            font-weight: bold;
+                            margin-bottom: 0.5em;
+                            display: block;
+                          "
+                          >ES6, GSAP, jQuery</span
+                        >
+                        스크롤 애니메이션, 패럴럭스, 슬라이더 및 페이지 트랜지션
+                        등 웹에 모션 및 인터랙티브 요소를 개발하는 일을 해요.
+                        콘티 및 프로토타입 전달을 통해 컨셉 컨펌 후 개발을 해요.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel">
+                    <div class="panel-heading">
+                      <a
+                        data-toggle="collapse"
+                        data-parent="#accordion-style"
+                        href="#question3"
+                        aria-expanded="false"
+                        class="collapsed"
+                      >
+                        <div class="panel-title">
+                          (UI 개발) 디자인 시스템 구축
+                          <span class="pull-right"
+                            ><i class="ion-android-add"></i
+                          ></span>
+                        </div>
+                      </a>
+                    </div>
+                    <div
+                      id="question3"
+                      class="panel-collapse collapse"
+                      aria-expanded="false"
+                      role="tablist"
+                    >
+                      <div class="panel-body">
+                        <span
+                          style="
+                            font-weight: bold;
+                            margin-bottom: 0.5em;
+                            display: block;
+                          "
+                          >SCSS, PostCSS, Figma</span
+                        >
+                        프로젝트에 지속적으로 활용할 수 있는 일관되면서
+                        개발효용이 높은 디자인 시스템을 구축해 드려요. 필요에
+                        따라 디자인을 병행하기도 하며, 문서 및 코드와 함께
+                        제공돼요.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel">
+                    <div class="panel-heading">
+                      <a
+                        data-toggle="collapse"
+                        data-parent="#accordion-style"
+                        href="#question4"
+                        aria-expanded="false"
+                        class="collapsed"
+                      >
+                        <div class="panel-title">
+                          (UI 디자인) UI/UX 디자인
+                          <span class="pull-right"
+                            ><i class="ion-android-add"></i
+                          ></span>
+                        </div>
+                      </a>
+                    </div>
+                    <div
+                      id="question4"
+                      class="panel-collapse collapse"
+                      aria-expanded="false"
+                      role="tablist"
+                    >
+                      <div class="panel-body">
+                        <span
+                          style="
+                            font-weight: bold;
+                            margin-bottom: 0.5em;
+                            display: block;
+                          "
+                          >Figma</span
+                        >
+                        개발 효율이 높으면서, 기능성과 심미성을 모두 갖춘 UI/UX
+                        디자인을 제공해 드려요. 피그마를 통해 동적으로 관리가
+                        가능한 산출물을 제공드리며, 디자인시스템을 함께
+                        제공해요.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel">
+                    <div class="panel-heading">
+                      <a
+                        data-toggle="collapse"
+                        data-parent="#accordion-style"
+                        href="#question5"
+                        aria-expanded="false"
+                        class="collapsed"
+                      >
+                        <div class="panel-title">
+                          (웹 개발) 정적 웹사이트 구축
+                          <span class="pull-right"
+                            ><i class="ion-android-add"></i
+                          ></span>
+                        </div>
+                      </a>
+                    </div>
+                    <div
+                      id="question5"
+                      class="panel-collapse collapse"
+                      aria-expanded="false"
+                      role="tablist"
+                    >
+                      <div class="panel-body">
+                        <span
+                          style="
+                            font-weight: bold;
+                            margin-bottom: 0.5em;
+                            display: block;
+                          "
+                          >Node, NextJS, Github Page, ETC.</span
+                        >
+                        프로모션 페이지, 마이크로사이트, 랜딩페이지, 회사 소개,
+                        개인 포트폴리오 사이트 등 웹사이트를 디자인에서부터
+                        개발까지 직접 제작해 드려요
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel">
+                    <div class="panel-heading">
+                      <a
+                        data-toggle="collapse"
+                        data-parent="#accordion-style"
+                        href="#question6"
+                        aria-expanded="false"
+                        class="collapsed"
+                      >
+                        <div class="panel-title">
+                          (웹 개발) 동적 웹사이트 구축
+                          <span class="pull-right"
+                            ><i class="ion-android-add"></i
+                          ></span>
+                        </div>
+                      </a>
+                    </div>
+                    <div
+                      id="question6"
+                      class="panel-collapse collapse"
+                      aria-expanded="false"
+                      role="tablist"
+                    >
+                      <div class="panel-body">
+                        <span
+                          style="
+                            font-weight: bold;
+                            margin-bottom: 0.5em;
+                            display: block;
+                          "
+                          >Wordpress, NextJS & Strapi, 네이버쇼핑몰, ETC.</span
+                        >
+                        업데이트 빈도가 높으며, 직접 컨텐츠 관리가 필요한
+                        사이트의 경우 워드프레스 및 리액트를 활용해 디자인부터
+                        개발까지 직접 제작해 드려요. 쇼핑몰 또한 요구사항에 맞는
+                        플랫폼을 기반으로 구축해 드려요
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--== About Company End ==-->
+
+      <!--== Who We Are Start ==-->
+      <!-- <div class="white-bg pt-0 pb-0 sm-pt-50 sm-pb-50 about-section">
+        <div class="col-md-6 col-sm-6 bg-flex bg-flex-right">
+          <div
+            class="bg-flex-holder bg-flex-cover"
+            style="background-image: url(assets/images/bg-left-img.jpg)"
+          ></div>
+        </div>
+        <div class="container-fluid">
+          <div class="col-md-6 col-sm-6">
+            <div
+              class="col-inner spacer text-left wow fadeInRight"
+              data-wow-delay="0.2s"
+            >
+              <div class="mission-section xs-mb-80">
+                <div class="section-title">
+                  <h4 class="default-color">Our Mission</h4>
+                  <h1>About Us</h1>
+                </div>
+                <p>
+                  Vivamus enim metus, varius et nunc quis, elementum pharetra
+                  turpis. Proin vel massa sed turpis auctor consectetur. Proin
+                  rhoncus eleifend pulvinar.
+                </p>
+                <p>
+                  Nam suscipit, enim eu semper porta, est magna facilisis lorem,
+                  sagittis sollicitudin ipsum ipsum at tortor. Proin diam massa,
+                  fermentum eget nisl consequat, viverra accumsan turpis.
+                  Maecenas non nunc quis odio dignissim efficitur eget eu leo.
+                  Donec ut accumsan metus, sit amet efficitur diam.
+                </p>
+                <p class="mt-30">
+                  <a class="btn btn-lg btn-color btn-default">Buy template</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!--== Who We Are End ==-->
+
+      <!--== Team Start ==-->
+      <div class="grey-bg pt-120 pb-120" id="team">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 centerize-col text-center">
+              <div class="section-title">
+                <h4 class="default-color">
+                  단순함연구소와 함께해 준 클라이언트 분들이에요
+                </h4>
+                <h1>포트폴리오</h1>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-50">
+            <div
+              class="col-md-4 col-sm-4 col-xs-12 wow fadeInLeft"
+              data-wow-delay="0.1s"
+            >
+              <div class="team style-2 xs-mb-30 sm-mb-30">
+                <div class="team-img valid" data-name="smpl-portfolio-link__gongstar">
+                  <img
+                    src="assets/images/images__portfolio/pf-thumb-gongstar.png"
+                    alt=""
+                  />
+                </div>
+                <div class="team-info text-center">
+                  <h3>디자인 에이전시 홍보 웹사이트</h3>
+                  <span class="portfolio-tag">회사 웹사이트 (반응형)</span>
+                  <span class="title default-color">UI 개발 / UI 디자인</span>
+                </div>
+              </div>
+            </div>
+            <!--== Member End ==-->
+            <div
+              class="col-md-4 col-sm-4 col-xs-12 wow fadeInLeft"
+              data-wow-delay="0.1s"
+            >
+              <div class="team style-2 xs-mb-30 sm-mb-30">
+                <div
+                  class="team-img valid"
+                  data-name="smpl-portfolio-link__exsp-free"
+                >
+                  <img
+                    src="assets/images/images__portfolio/pf-thumb-exsp-promo.png"
+                    alt=""
+                  />
+                  <div class="social-icons-style-02"></div>
+                </div>
+                <div class="team-info text-center">
+                  <h3>B2B기업 마이크로웹사이트</h3>
+                  <span class="portfolio-tag">홍보 웹사이트 (반응형)</span>
+                  <span class="title default-color">UI 개발 / UI 디자인</span>
+                </div>
+              </div>
+            </div>
+
+            <!--== Member End ==-->
+            <div
+              class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp"
+              data-wow-delay="0.2s"
+            >
+              <div class="team style-2 xs-mb-30 sm-mb-30">
+                <div
+                  class="team-img valid"
+                  data-name="smpl-portfolio-link__krmed"
+                >
+                  <img
+                    src="assets/images/images__portfolio/pf-thumb-krmed.png"
+                    alt=""
+                  />
+                  <div class="social-icons-style-02">
+                    <!-- <span>보안으로 인한 비공개</span> -->
+                  </div>
+                </div>
+                <div class="team-info text-center">
+                  <h3>동물병원 홍보 웹사이트</h3>
+                  <span class="portfolio-tag">병원 웹사이트 (반응형)</span>
+                  <span class="title default-color">UI 디자인</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-50">
+            <div
+              class="col-md-4 col-sm-4 col-xs-12 wow fadeInLeft"
+              data-wow-delay="0.1s"
+            >
+              <div class="team style-2 xs-mb-30 sm-mb-30">
+                <div class="team-img invalid" data-name="smpl-portfolio-link__gongstar">
+                  <img
+                    src="assets/images/images__portfolio/pf-thumb-fishing.png"
+                    alt=""
+                  />
+                  <div class="social-icons-style-02">
+                    <span>보안으로 인한 비공개</span>
+                  </div>
+                </div>
+                <div class="team-info text-center">
+                  <h3>낚시터 검색 모바일 웹</h3>
+                  <span class="portfolio-tag">웹 어플리케이션 (반응형)</span>
+                  <span class="title default-color">UI 개발</span>
+                </div>
+              </div>
+            </div>
+            <!--== Member End ==-->
+            <div
+              class="col-md-4 col-sm-4 col-xs-12 wow fadeInLeft"
+              data-wow-delay="0.1s"
+            >
+              <div class="team style-2 xs-mb-30 sm-mb-30">
+                <div
+                  class="team-img valid"
+                  data-name="smpl-portfolio-link__urkr"
+                >
+                  <img
+                    src="assets/images/images__portfolio/pf-thumb-urkr.png"
+                    alt=""
+                  />
+                  <div class="social-icons-style-02"></div>
+                </div>
+                <div class="team-info text-center">
+                  <h3>키즈카페 홍보 웹사이트</h3>
+                  <span class="portfolio-tag">홍보 웹사이트 (반응형)</span>
+                  <span class="title default-color">UI 개발 / UI 디자인</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!--== Team End ==-->
+
+      <div class="pt-0 pb-0">
+        <div class="col-12">
+          <section class="client">
+            <div class="client-list">
+              <div class="client-item wow fadeInDown" data-wow-delay="0.3s">
+                <img src="./assets/images/images__clients/kt.svg" alt="kt" />
+              </div>
+              <div class="client-item wow fadeInDown" data-wow-delay="0.3s">
+                <img src="./assets/images/images__clients/krmed.svg" alt="kt" />
+              </div>
+              <div class="client-item wow fadeInDown" data-wow-delay="0.3s">
+                <img src="./assets/images/images__clients/etri.svg" alt="kt" />
+              </div>
+              <!-- <div class="client-item wow fadeInDown" data-wow-delay="0.3s">
+                <img src="./assets/images/images__clients/gsnd.svg" alt="kt" />
+              </div> -->
+              <div class="client-item wow fadeInDown" data-wow-delay="0.3s">
+                <img src="./assets/images/images__clients/RTst.svg" alt="kt" />
+              </div>
+            </div>
+            <div class="client-list">
+              <div class="client-item wow fadeInDown" data-wow-delay="0.6s">
+                <img src="./assets/images/images__clients/SKH-W.svg" alt="kt" />
+              </div>
+              <div class="client-item wow fadeInDown" data-wow-delay="0.6s">
+                <img src="./assets/images/images__clients/ebin.svg" alt="kt" />
+              </div>
+              <div class="client-item wow fadeInDown" data-wow-delay="0.6s">
+                <img src="./assets/images/images__clients/snu.svg" alt="kt" />
+              </div>
+              <div class="client-item wow fadeInDown" data-wow-delay="0.6s">
+                <img src="./assets/images/images__clients/nnb.svg" alt="kt" />
+              </div>
+              <div class="client-item wow fadeInDown" data-wow-delay="0.6s">
+                <img src="./assets/images/images__clients/moms.svg" alt="kt" />
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <!--== Call to Actions Start ==-->
+      <section
+        class="parallax-bg fixed-bg sm-pb-80 sm-pt-80"
+        data-parallax-speed="0.5"
+        data-parallax-direction="up"
+      >
+        <div class="overlay-bg"></div>
+        <div class="container">
+          <div class="row row-flex flex-center">
+            <div class="col-md-3 col-sm-6 col-xs-12 xs-mb-30 sm-mb-30">
+              <div class="counter-wrap wow fadeInLeft" data-wow-delay="0.1s">
+                <!-- <i class="icofont icofont-award font-40px default-color"></i> -->
+                <i>
+                  <svg
+                    width="64"
+                    height="64"
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M24 30C24 28.8954 24.8954 28 26 28H38C39.1046 28 40 28.8954 40 30V38C40 39.1046 39.1046 40 38 40H26C24.8954 40 24 39.1046 24 38V30ZM28 32V36H36V32H28Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M26 34H14C12.9391 34 11.9218 33.5785 11.1716 32.8284C10.4215 32.0782 10 31.0609 10 30V22C10 20.9391 10.4215 19.9218 11.1716 19.1716C11.9218 18.4215 12.9391 18 14 18H50C51.0609 18 52.0782 18.4215 52.8284 19.1716C53.5785 19.9218 54 20.9391 54 22V30C53.9999 31.0507 53.571 32.0858 52.828 32.8287C52.0849 33.5715 51.0497 34.0002 49.999 34H38"
+                      stroke="white"
+                      stroke-width="4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M10 28C11.1046 28 12 28.8954 12 30V49.9995C12 50.53 12.2107 51.0389 12.5858 51.414C12.9608 51.7892 13.4696 51.9999 14 52C14 52 14 52 14 52H49.999C50.2617 52 50.5221 51.9483 50.7649 51.8478C51.0076 51.7473 51.2282 51.5999 51.414 51.4142C51.5998 51.2284 51.7471 51.0078 51.8477 50.7651C51.9482 50.5224 52 50.2622 52 49.9995V30C52 28.8954 52.8954 28 54 28C55.1046 28 56 28.8954 56 30V49.9995C56 50.7876 55.8448 51.5679 55.5432 52.296C55.2416 53.024 54.7995 53.6856 54.2422 54.2428C53.685 54.8 53.0234 55.2419 52.2953 55.5435C51.5672 55.8449 50.787 56.0001 49.999 56C49.9989 56 49.9991 56 49.999 56H14C12.4086 55.9999 10.8824 55.3676 9.75718 54.2423C8.63201 53.117 7.99994 51.5908 8 49.9995C8 49.9995 8 49.9995 8 49.9995V30C8 28.8954 8.89543 28 10 28Z"
+                      fill="white"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M21.1719 9.17122C21.922 8.42129 22.9393 8 24 8H40C41.0607 8 42.078 8.42129 42.8281 9.17122C43.5782 9.92115 43.9997 10.9383 44 11.999V18C44 19.1046 43.1046 20 42 20C40.8954 20 40 19.1046 40 18V12L24 12L24 18C24 19.1046 23.1046 20 22 20C20.8954 20 20 19.1046 20 18V11.9995C20.0003 10.9388 20.4218 9.92115 21.1719 9.17122Z"
+                      fill="white"
+                    />
+                  </svg>
+                </i>
+                <h2>
+                  <span class="counter font-600 open-font white-color">24</span>
+                </h2>
+                <h3 class="font-400 text-uppercase white-color">
+                  함께한 클라이언트
+                </h3>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 xs-mb-30 sm-mb-30">
+              <div class="counter-wrap wow fadeInUp" data-wow-delay="0.2s">
+                <!-- <i
+                  class="icofont icofont-coffee-mug font-40px default-color"
+                ></i> -->
+                <i>
+                  <svg
+                    width="64"
+                    height="64"
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M16 20C16 18.8954 16.8954 18 18 18H46C47.1046 18 48 18.8954 48 20V26C48 27.1046 47.1046 28 46 28H18C16.8954 28 16 27.1046 16 26V20ZM20 22V24H44V22H20Z"
+                      fill="white"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M32 12C29.6371 12 27.3506 12.8369 25.546 14.3623C24.3678 15.3583 23.4448 16.6056 22.8365 18H41.1636C40.5553 16.6056 39.6323 15.3583 38.4541 14.3623C36.6495 12.8369 34.363 12 32 12ZM22.9637 11.3075C25.4903 9.17178 28.6917 7.99998 32 7.99998C35.3084 7.99998 38.5098 9.17178 41.0363 11.3075C43.5629 13.4432 45.2514 16.4049 45.8022 19.667C45.9002 20.2474 45.7376 20.8416 45.3576 21.2911C44.9775 21.7407 44.4188 22 43.8301 22H20.1699C19.5813 22 19.0225 21.7407 18.6425 21.2911C18.2625 20.8416 18.0998 20.2474 18.1979 19.667C18.7487 16.4049 20.4371 13.4432 22.9637 11.3075Z"
+                      fill="white"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M18.5363 24.637C18.9147 24.2308 19.4448 24 20 24H44C44.5552 24 45.0854 24.2308 45.4637 24.637C45.842 25.0433 46.0345 25.5886 45.9949 26.1424L44.4249 48.1424C44.3502 49.189 43.4793 50 42.43 50H21.57C20.5207 50 19.6498 49.189 19.5751 48.1424L18.0051 26.1424C17.9656 25.5886 18.158 25.0433 18.5363 24.637ZM22.1478 28L23.4324 46H40.5676L41.8522 28H22.1478Z"
+                      fill="white"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M20.1062 46.6373C20.4845 46.2308 21.0148 46 21.5701 46H42.4301C42.9853 46 43.5156 46.2308 43.894 46.6373C44.2723 47.0437 44.4647 47.5891 44.425 48.143L43.995 54.143C43.92 55.1894 43.0492 56 42.0001 56H22.0001C20.951 56 20.0802 55.1894 20.0052 54.143L19.5752 48.143C19.5355 47.5891 19.7278 47.0437 20.1062 46.6373ZM23.7185 50L23.8619 52H40.1383L40.2816 50H23.7185Z"
+                      fill="white"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M32 34C30.3431 34 29 35.3431 29 37C29 38.6569 30.3431 40 32 40C33.6569 40 35 38.6569 35 37C35 35.3431 33.6569 34 32 34ZM25 37C25 33.134 28.134 30 32 30C35.866 30 39 33.134 39 37C39 40.866 35.866 44 32 44C28.134 44 25 40.866 25 37Z"
+                      fill="white"
+                    />
+                  </svg>
+                </i>
+                <h2>
+                  <span class="counter font-600 open-font white-color"
+                    >974</span
+                  >
+                </h2>
+                <h3 class="font-400 text-uppercase white-color">
+                  작업중 마신 아메리카노
+                </h3>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 xs-mb-30">
+              <div class="counter-wrap wow fadeInDown" data-wow-delay="0.3s">
+                <!-- <i
+                  class="icofont icofont-briefcase font-40px default-color"
+                ></i> -->
+                <i>
+                  <svg
+                    width="64"
+                    height="64"
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M52.9453 32C52.9453 29.7305 54.5176 27.248 53.8242 25.2012C53.1055 23.0762 50.2891 21.96 48.9473 20.1934C47.5918 18.4092 47.3477 15.5 45.4863 14.2012C43.6445 12.9141 40.6895 13.5801 38.4766 12.8906C36.3398 12.2266 34.3672 10 32 10C29.6328 10 27.6621 12.2266 25.5254 12.8906C23.3105 13.5801 20.3574 12.915 18.5137 14.2012C16.6543 15.5 16.4082 18.4092 15.0527 20.1934C13.7129 21.9609 10.8965 23.0771 10.1777 25.2012C9.4844 27.249 11.0547 29.7305 11.0547 32C11.0547 34.2705 9.4844 36.752 10.1777 38.8008C10.8965 40.9238 13.7129 42.041 15.0527 43.8066C16.4082 45.5918 16.6543 48.501 18.5156 49.8008C20.3574 51.0859 23.3125 50.4199 25.5254 51.1094C27.6621 51.7754 29.6328 54 32 54C34.3672 54 36.3398 51.7754 38.4766 51.1094C40.6895 50.4199 43.6445 51.0859 45.4863 49.8008C47.3477 48.501 47.5938 45.5918 48.9473 43.8066C50.2891 42.041 53.1055 40.9238 53.8242 38.8008C54.5176 36.752 52.9453 34.2705 52.9453 32Z"
+                      stroke="white"
+                      stroke-width="4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M32 16C23.1634 16 16 23.1634 16 32C16 40.8366 23.1634 48 32 48C40.8366 48 48 40.8366 48 32C48 23.1634 40.8366 16 32 16ZM20 32C20 25.3726 25.3726 20 32 20C35.1221 20 37.9657 21.1923 40.1004 23.1464L31.7406 34.9121L27.4142 30.5858C26.6332 29.8047 25.3668 29.8047 24.5858 30.5858C23.8047 31.3668 23.8047 32.6332 24.5858 33.4142L30.5858 39.4142C31.0021 39.8305 31.5807 40.0423 32.1674 39.993C32.7542 39.9437 33.2893 39.6384 33.6304 39.1584L42.6497 26.4644C43.5124 28.1207 44 30.0034 44 32C44 38.6274 38.6274 44 32 44C25.3726 44 20 38.6274 20 32Z"
+                      fill="white"
+                    />
+                  </svg>
+                </i>
+                <h2>
+                  <span class="counter font-600 open-font white-color">32</span>
+                </h2>
+                <h3 class="font-400 text-uppercase">완료한 프로젝트</h3>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="counter-wrap wow fadeInRight" data-wow-delay="0.4s">
+                <!-- <i class="icofont icofont-cola font-40px default-color"></i> -->
+                <i>
+                  <svg
+                    width="64"
+                    height="64"
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18 10H46"
+                      stroke="white"
+                      stroke-width="4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M18 54H46"
+                      stroke="white"
+                      stroke-width="4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M22 54L18 48V16L22 10"
+                      stroke="white"
+                      stroke-width="4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M42 54L46 48V16L42 10"
+                      stroke="white"
+                      stroke-width="4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M18 46H46"
+                      stroke="white"
+                      stroke-width="4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M18 18H46"
+                      stroke="white"
+                      stroke-width="4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M28 18C28 25 26 25 26 32C26 39 28 39 28 46"
+                      stroke="white"
+                      stroke-width="4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M36 40C38.2091 40 40 38.2091 40 36C40 33.7909 38.2091 32 36 32C33.7909 32 32 33.7909 32 36C32 38.2091 33.7909 40 36 40Z"
+                      stroke="white"
+                      stroke-width="4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M39 26C39.5523 26 40 25.5523 40 25C40 24.4477 39.5523 24 39 24C38.4477 24 38 24.4477 38 25C38 25.5523 38.4477 26 39 26Z"
+                      stroke="white"
+                      stroke-width="4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </i>
+                <h2>
+                  <span class="counter font-600 open-font white-color"
+                    >449</span
+                  >
+                </h2>
+                <h3 class="font-400 text-uppercase white-color">
+                  작업중 마신 제로콜라
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--== Call to Actions End ==-->
+
+      <!--== Pricing Table Start ==-->
+      <!-- <div class="white-bg pt-120 pb-120" id="pricing">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 centerize-col text-center">
+              <div class="section-title">
+                <h4 class="default-color">작업 비용은 다음과 같아요</h4>
+                <h1>기본 견적</h1>
+                <p>
+                  프로젝트 성격에 맞춰 협의 과정을 통해 비용 산정을 원칙으로
+                  해요.<br />
+                  비용 산정은 기본 견적을 바탕으로 이뤄지게 돼요.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-50">
+            <div class="col-md-4 pricing-table col-sm-4 xs-mb-30">
+              <div
+                class="pricing-box pricing-box-bg text-left wow fadeInLeft"
+                data-wow-delay="0.1s"
+              >
+                <div class="plan-name">
+                  <h3>UI 디자인</h3>
+                </div>
+                <div class="value">
+                  <h3>8<span>만원</span></h3>
+                  <span class="per"></span>
+                </div>
+                <ul>
+                  <li>
+                    <strong>태스크형 디자인</strong>
+                  </li>
+                  <li>- 데스크탑 UI 디자인: 8만원 (페이지/섹션)</li>
+                  <li>- 반응형 UI 디자인: 12만원 (페이지/섹션)</li>
+                  <li>
+                    <strong>프로젝트형 디자인</strong>
+                  </li>
+                  <li>- 바용: 100만원 ~</li>
+                  <li>
+                    <strong>디자인시스템 디자인</strong>
+                  </li>
+                  <li>- 비용: 100만원 ~</li>
+                </ul>
+                <div class="pricing-box-bottom">
+                  <a
+                    class="btn btn-dark btn-md btn-default"
+                    href="https://open.kakao.com/o/s23t6E2e"
+                    target="_blank"
+                    >카톡 상담하기</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 pricing-table col-sm-4 xs-mb-30">
+              <div class="pricing-box featured pricing-box-bg text-left">
+                <div class="plan-name">
+                  <h3>UI 개발</h3>
+                </div>
+                <div class="value">
+                  <h3>8<span>만원</span></h3>
+                  <span class="per"></span>
+                </div>
+                <ul>
+                  <li>
+                    <strong>태스크형 개발</strong>
+                  </li>
+                  <li>- 데스크탑 UI 개발: 8만원 (페이지/섹션)</li>
+                  <li>- 반응형 UI 개발: 12만원 (페이지/섹션)</li>
+                  <li>
+                    - 인터랙션 개발 추가: 8만원 (페이지/섹션)
+                    <span class="price-annotation">
+                      * 스크롤 애니메이션, 패러랙스 등
+                    </span>
+                  </li>
+                  <li>
+                    <strong>프로젝트형 개발</strong>
+                  </li>
+                  <li>- 바용: 100만원 ~</li>
+                  <li>
+                    <strong>디자인시스템 개발</strong>
+                  </li>
+                  <li>
+                    - 비용: 100만원 ~
+                    <span class="price-annotation">
+                      * 스토리북, 테일윈드, 부트스트랩 등 활용
+                    </span>
+                    <span class="price-annotation">
+                      * 별도 디자인 제공 없을 시 자체 템플릿 활용
+                    </span>
+                  </li>
+                </ul>
+                <div class="pricing-box-bottom">
+                  <a
+                    class="btn btn-dark btn-md btn-default"
+                    href="https://open.kakao.com/o/s23t6E2e"
+                    target="_blank"
+                    >카톡 상담하기</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 pricing-table col-sm-4">
+              <div
+                class="pricing-box pricing-box-bg text-left wow fadeInRight"
+                data-wow-delay="0.2s"
+              >
+                <div class="plan-name">
+                  <h3>웹 개발</h3>
+                </div>
+                <div class="value">
+                  <h3>1<span style="right: -3ch">백만원</span></h3>
+                  <span class="per"></span>
+                </div>
+                <ul>
+                  <li><strong>프로젝트형</strong></li>
+                  <li>- 기획, 디자인, 개발을 한번에 처리</li>
+                  <li>- 요구사항에 맞춰 정적/동적 웹사이트 개발</li>
+                  <li>- 회사, 마이크로 홍보, 쇼핑몰, 커뮤니티 등</li>
+                  <li>- 협의를 통해 업무범위/프로세스 정의</li>
+                  <li>- 비용: 100만원 ~</li>
+                </ul>
+                <div class="pricing-box-bottom">
+                  <a
+                    class="btn btn-dark btn-md btn-default"
+                    href="https://open.kakao.com/o/s23t6E2e"
+                    target="_blank"
+                    >카톡 상담하기</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!--== Pricing Table End ==-->
+
+      <!--== Blogs Start ==-->
+      <!-- <div id="blog" class="white-bg pt-120 pb-120">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 centerize-col text-center">
+              <div class="section-title">
+                <h4 class="default-color">Trending News</h4>
+                <h1>Our Blogs</h1>
+                <p>
+                  Responsive and Raw One-Page HTML5 Template. Build whatever you
+                  like with this Template, when an unknown printer took a galley
+                  of type and scrambled it to make a type specimen book.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-50">
+            <div class="col-md-4 blog-list">
+              <div
+                class="post-wrap xs-mb-30 sm-mb-30 wow fadeInLeft"
+                data-wow-delay="0.1s"
+              >
+                <div class="post-img">
+                  <div class="date-box default-bg">
+                    <div class="day">3</div>
+                    <div class="month">DEC</div>
+                  </div>
+                  <div class="card-category">
+                    <a
+                      href="blog.html"
+                      class="btn btn-sm btn-zoom btn-light btn-default"
+                      >Travel</a
+                    >
+                  </div>
+                  <div class="item">
+                    <img
+                      class="img-responsive"
+                      src="assets/images/post/post-01.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+
+                <div class="post-text">
+                  <h3><a href="blog.html">Best WordPress Themes</a></h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                  <a href="#" class="btn-text">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 blog-list">
+              <div
+                class="post-wrap xs-mb-30 sm-mb-30 wow fadeInUp"
+                data-wow-delay="0.2s"
+              >
+                <div class="post-img">
+                  <div class="date-box default-bg">
+                    <div class="day">01</div>
+                    <div class="month">OCT</div>
+                  </div>
+                  <div class="blog-grid-slider slick">
+                    <div class="item">
+                      <img
+                        class="img-responsive"
+                        src="assets/images/post/post-03.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="item">
+                      <img
+                        class="img-responsive"
+                        src="assets/images/post/post-04.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="post-text">
+                  <h3><a href="blog.html">Managing Their Own Websites</a></h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                  <a href="#" class="btn-text">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 blog-list">
+              <div class="post-wrap wow fadeInRight" data-wow-delay="0.3s">
+                <div class="post-img">
+                  <div class="date-box default-bg">
+                    <div class="day">16</div>
+                    <div class="month">MAY</div>
+                  </div>
+                  <div class="card-category">
+                    <a
+                      href="blog.html"
+                      class="btn btn-sm btn-zoom btn-light btn-default"
+                      >Trending</a
+                    >
+                  </div>
+                  <div class="item">
+                    <img
+                      class="img-responsive"
+                      src="assets/images/post/post-05.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="post-text">
+                  <h3>
+                    <a href="blog.html">Best Plugins You Need to Know About</a>
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                  <a href="#" class="btn-text">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!--== Blogs End ==-->
+
+      <!--== Contact Start ==-->
+      <div class="white-bg pt-120 pb-120" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <div class="section-title text-left">
+                <h4 class="default-color mt-0">작업 요청은 언제나 환영해요</h4>
+                <h1>작업 요청</h1>
+              </div>
+              <div class="mt-50">
+                <!-- <div class="icon-text feature-box-2 mb-30 clearfix">
+                  <div class="icon">
+                    <i
+                      class="icofont icofont-google-map font-30px white-color"
+                    ></i>
+                  </div>
+                  <h3 class="mt-0">회사 위치</h3>
+                  <div class="dis">대전 (Daejeon, South Korea)</div>
+                </div> -->
+                <div class="icon-text feature-box-2 mb-30 clearfix">
+                  <div class="icon">
+                    <!-- <i class="icofont icofont-iphone font-30px white-color"></i> -->
+          
+                      <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16 12C16 9.79086 17.7909 8 20 8H44C46.2091 8 48 9.79086 48 12V52C48 54.2091 46.2091 56 44 56H20C17.7909 56 16 54.2091 16 52V12ZM44 12H20V52H44V12Z" fill="#3F6FCF"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16 16C16 14.8954 16.8954 14 18 14H46C47.1046 14 48 14.8954 48 16C48 17.1046 47.1046 18 46 18H18C16.8954 18 16 17.1046 16 16Z" fill="#3F6FCF"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M28 46C28 43.7909 29.7909 42 32 42C34.2091 42 36 43.7909 36 46C36 48.2091 34.2091 50 32 50C29.7909 50 28 48.2091 28 46Z" fill="#3F6FCF"/>
+                        </svg>
+                        
+                      
+                  </div>
+                  <h3 class="mt-0">연락처</h3>
+                  <div class="dis">
+                    카카오톡
+                    <a href="https://open.kakao.com/o/s23t6E2e" target="_blank"
+                      >@siimplelab</a
+                    >
+                  </div>
+                </div>
+                <div class="icon-text feature-box-2 mb-30 clearfix">
+                  <div class="icon">
+                    <!-- <i class="icofont icofont-mail font-30px white-color"></i> -->
+                    <i>
+                      <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M26 40H53C53.1314 40 53.2615 39.9741 53.3828 39.9239C53.5042 39.8736 53.6144 39.7999 53.7073 39.707C53.8002 39.614 53.8738 39.5037 53.924 39.3824C53.9743 39.261 54.0001 39.1309 54 38.9995V18C54 15.8783 53.1571 13.8434 51.6569 12.3431C50.1566 10.8429 48.1217 10 46 10H18M26 40V18C26 15.8783 25.1571 13.8434 23.6569 12.3431C22.1566 10.8429 20.1217 10 18 10M26 40H11C10.8686 40 10.7386 39.9741 10.6172 39.9238C10.4959 39.8735 10.3856 39.7998 10.2928 39.7069C10.1999 39.614 10.1263 39.5037 10.076 39.3823C10.0258 39.2609 9.99996 39.1309 10 38.9995V18C10 15.8783 10.8429 13.8434 12.3431 12.3431C13.8434 10.8429 15.8783 10 18 10" stroke="#3F6FCF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M24 22C24 20.8954 24.8954 20 26 20H54C55.1046 20 56 20.8954 56 22C56 23.1046 55.1046 24 54 24H26C24.8954 24 24 23.1046 24 22Z" fill="#3F6FCF"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M38 28C38 26.8954 38.8954 26 40 26H54C55.1046 26 56 26.8954 56 28V34C56 35.1046 55.1046 36 54 36H40C38.8954 36 38 35.1046 38 34V28ZM42 30V32H52V30H42Z" fill="#3F6FCF"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M26 40C26 38.8954 26.8954 38 28 38H36C37.1046 38 38 38.8954 38 40V52.9996C38 52.9997 38 52.9994 38 52.9996C38 53.3935 37.9225 53.784 37.7718 54.1479C37.621 54.512 37.4 54.8427 37.1214 55.1214C36.8427 55.4 36.512 55.621 36.1479 55.7718C35.784 55.9225 35.3939 56 35 56C34.9999 56 35.0001 56 35 56H29C28.2044 55.9999 27.4413 55.6838 26.8787 55.1213C26.3162 54.5587 26.0001 53.7958 26 53.0002V40ZM30 42V52H34V42H30Z" fill="#3F6FCF"/>
+                        </svg>
+                        
+                    </i>
+                  </div>
+                  <h3 class="mt-0"></h3>
+                  <div class="dis">
+                    <h3 class="mt-0">이메일</h3>
+                    <div class="dis">
+                      <!-- 최은수 -->
+                      <a href="mailto:choi@siimplelab.com"
+                        >choi@siimplelab.com</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <form
+                name="contact-form"
+                id="contact-form"
+                action="mailto:info@siimplelab.com"
+                method="GET"
+                class="contact-form-style-01"
+              >
+                <div class="messages"></div>
+                <div class="row mt-50">
+                  <div class="col-md-12">
+                    <div class="row">
+                      <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                          <label class="sr-only" for="name">이름</label>
+                          <input
+                            type="text"
+                            name="name"
+                            class="md-input"
+                            id="name"
+                            placeholder="이름 *"
+                            required
+                            data-error="이름을 입력해 주세요"
+                          />
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                          <label class="sr-only" for="email">이메일</label>
+                          <input
+                            type="email"
+                            name="email"
+                            class="md-input"
+                            id="email"
+                            placeholder="이메일 *"
+                            required=""
+                            data-error="이메일을 입력해 주세요"
+                          />
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="row">
+                      <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                          <label class="sr-only" for="phone">전화번호</label>
+                          <input
+                            type="text"
+                            name="phone"
+                            class="md-input"
+                            id="phone"
+                            placeholder="전화번호"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                          <label class="sr-only" for="subject">제목</label>
+                          <input
+                            type="text"
+                            name="subject"
+                            class="md-input"
+                            id="subject"
+                            placeholder="이메일 제목을 적어 주세요"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12 col-sm-12">
+                    <div class="form-group">
+                      <label class="sr-only" for="message"
+                        >메시지를 적어 주세요 *</label
+                      >
+                      <textarea
+                        name="body"
+                        class="md-textarea"
+                        id="message"
+                        rows="7"
+                        required
+                        data-error="메시지를 적어 주세요"
+                        placeholder="작업 내용, 작업 희망 기간 등을 적어 주세요 *"
+                      ></textarea>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-12 col-sm-12">
+                    <div class="text-left">
+                      <button
+                        type="submit"
+                        name="submit"
+                        class="btn btn-color btn-md btn-default btn-animate remove-margin"
+                      >
+                        <span
+                          >이메일 보내기<i class="ion-android-arrow-forward"></i
+                        ></span>
+                      </button>
+                    </div>
+                    <div class="col-12 contact-additional-text">
+                      <span
+                        ><a
+                          href="https://open.kakao.com/o/s23t6E2e"
+                          target="_blank"
+                          >카카오톡 채팅</a
+                        >을 통해 더욱 빠른 상담이 가능해요</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--== Contact End ==-->
+
+      <!--== Footer Start ==-->
+      <footer class="footer">
+        <div class="footer-copyright">
+          <div class="container">
+            <div
+              class="row wow fadeInUp"
+              data-wow-delay="0.1s"
+              data-wow-offset="0"
+            >
+              <div class="col-md-8 centerize-col text-center">
+                <div class="footer-logo">
+                  <a href="index.html"
+                    ><img
+                      src="assets/images/images__smpl/siimplelab-logo-modified-v2-en-color=white.svg"
+                      class="img-responsive centerize-col"
+                      alt="Footer Logo"
+                  /></a>
+                </div>
+                <div class="copy-right">Copyright, All rights reserved.</div>
+                <ul class="social-media mt-30 float-none">
+                  <li>
+                    <a
+                      href="https://instagram.com/siimplelab"
+                      target="_blank"
+                      class="icofont icofont-instagram"
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://facebook.com/siimplelab"
+                      target="_blank"
+                      class="icofont icofont-facebook"
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://uxdev.org"
+                      target="_blank"
+                      class="icofont icofont-laboratory"
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://blog.naver.com/siimplelab"
+                      target="_blank"
+                      class="icofont icofont-blogger"
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/siimplelab"
+                      target="_blank"
+                      class="icofont icofont-github"
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://open.kakao.com/o/s23t6E2e"
+                      target="_blank"
+                      class="icofont icofont-kakaotalk"
+                    ></a>
+                  </li>
+
+                  <!-- <li><a href="#" class="icofont icofont-twitter"></a></li>
+                  <li><a href="#" class="icofont icofont-behance"></a></li>
+                  <li><a href="#" class="icofont icofont-dribble"></a></li>
+                  <li><a href="#" class="icofont icofont-linkedin"></a></li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--== Footer End ==-->
+
+      <!--== Go to Top  ==-->
+      <a href="javascript:" id="return-to-top"
+        ><i class="icofont icofont-arrow-up"></i
+      ></a>
+      <!--== Go to Top End ==-->
+
+      <a
+        class="social-floating"
+        id="social-floating"
+        href="https://open.kakao.com/o/s23t6E2e"
+        target="_blank"
+      >
+        <i class="icofont-chat"></i>
+        <span> 카톡상담 바로하기</span>
+      </a>
+    </div>
+    <!--== Wrapper End ==-->
+
+    <!--== Javascript Plugins ==-->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1eO-IAC9PhPE5APzZDSs8W40ewuxnsu8"></script> -->
+    <script src="/lib/js/jquery.min.js"></script>
+    <script src="/lib/js/smoothscroll.js"></script>
+    <script src="/lib/js/plugins.js"></script>
+    <script src="/lib/js/master.js"></script>
+
+    <!-- Revolution js Files -->
+    <script src="/lib/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="/lib/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="/lib/revolution/js/revolution.extension.actions.min.js"></script>
+    <script src="/lib/revolution/js/revolution.extension.carousel.min.js"></script>
+    <script src="/lib/revolution/js/revolution.extension.kenburn.min.js"></script>
+    <script src="/lib/revolution/js/revolution.extension.layeranimation.min.js"></script>
+    <script src="/lib/revolution/js/revolution.extension.migration.min.js"></script>
+    <script src="/lib/revolution/js/revolution.extension.navigation.min.js"></script>
+    <script src="/lib/revolution/js/revolution.extension.parallax.min.js"></script>
+    <script src="/lib/revolution/js/revolution.extension.slideanims.min.js"></script>
+    <script src="/lib/revolution/js/revolution.extension.video.min.js"></script>
+    <!--== Javascript Plugins End ==-->
+
+    <script>
+      (() => {
+        setTimeout(() => {
+          // document.querySelector("#main-background-video").src =
+          //   "./assets/videos/smpl-bg.mp4";
+          // document.querySelector("#main-background-video").load();
+          // document.querySelector("#main-background-video").autoplay = true;
+          // document.querySelector("#main-background-video").play();
+          // window.scrollTo(window.scrollX, window.scrollY - 1);
+          // window.scrollTo(window.scrollX, window.scrollY + 1);
+          // window.scrollTo(window.scrollX, 0);
+        }, 0);
+        // data-name="smpl-portfolio-link__gongstar"
+        setTimeout(() => {
+          document
+            .querySelector('[data-name="smpl-portfolio-link__exsp-free"]')
+            .addEventListener("click", () => {
+              window.open("https://exsp.netlify.app/free");
+            });
+          document
+            .querySelector('[data-name="smpl-portfolio-link__gongstar"]')
+            .addEventListener("click", () => {
+              window.open("https://gongstar.siimplelab.com");
+            });
+          // document
+          //   .querySelector('[data-name="smpl-portfolio-link__exsp"]')
+          //   .addEventListener("click", () => {
+          //     window.open("https://exsp.netlify.app/");
+          //   });
+          document
+            .querySelector('[data-name="smpl-portfolio-link__krmed"]')
+            .addEventListener("click", () => {
+              window.open("https://smpl-krmed.animaapp.io/");
+            });
+          
+          document
+            .querySelector('[data-name="smpl-portfolio-link__urkr"]')
+            .addEventListener("click", () => {
+              window.open("https://urkr.siimplelab.com/");
+            });
+        }, 0);
+      })();
+    </script>
+    <!-- <script type="module" src="./main.js"></script> -->
+    <script type="module" src="./custom.js"></script>
+  </body>
+</html>
