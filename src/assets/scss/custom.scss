@@ -376,6 +376,49 @@ select {
 nav.bootsnav.brand-center {
   // visibility: hidden;
   opacity: 0;
-  transition: all .5s ease;
-  
+  transition: all .5s ease;  
+}
+
+
+.project-list {
+	display: flex;
+	flex-flow: row unwrap;
+	width: 100%;
+	position: relative;
+  overflow: hidden;
+}
+.project-list-item {
+	font-size: 1.6rem;
+	padding: 1rem 2rem;
+	border: 1px solid #ddd;
+	display: inline-flex;
+	border-radius: 2000px;
+	margin-right: .75rem;
+	flex: 0 0 auto;
+  animation-name: translateIt;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+	animation-timing-function: linear;
+  position: relative;
+}
+
+.project-list-item:last-of-type {
+	margin-right: 0;
+}
+
+.project-list-item__time {
+	margin-right: .5rem;
+  font-weight: bold;
+	display: inline-flex;
+} 
+
+@keyframes translateIt {
+	0% {
+		left: 0;
+	}
+	100% {
+		left: -200px;
+	}
 }
