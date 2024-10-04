@@ -89,9 +89,15 @@ nav.navbar.bootsnav.navbar-fixed {
   }
 
   nav.navbar.bootsnav .navbar-toggle {
-    display: inline-block;
+    display: inline-flex;
     margin-right: 0px;
     margin-top: 0;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 18px;
+    // transform: translate(0,-50%);
+
   }
   nav.navbar.bootsnav .navbar-nav > li > a {
     border-color: #333 !important;
